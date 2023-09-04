@@ -1,0 +1,58 @@
+/*!- Scroll top*/
+.scroll-top {
+	position: fixed;
+	right: 15px;
+	bottom: 25px;
+	width: 35px;
+	height: 35px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
+	-webkit-border-radius: 17px;
+	-moz-border-radius: 17px;
+	-ms-border-radius: 17px;
+	-o-border-radius: 17px;
+	border-radius: 17px;
+
+	-webkit-transition: opacity 400ms ease;
+	-moz-transition: opacity 400ms ease;
+	-ms-transition: opacity 400ms ease;
+	-o-transition: opacity 400ms ease;
+	transition: opacity 400ms ease;
+	z-index: 99;
+}
+
+.scroll-top.off {
+	right: -35px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	/*z-index: -1;*/
+}
+
+.scroll-top.on {
+	right: 15px;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.scroll-top:before {
+	display: block;
+	width: 34px;
+	height: 34px;
+	content: "";
+	background-image: url("data:image/svg+xml,%3Csvg%20version=%221.1%22%20xmlns=%22http://www.w3.org/2000/svg%22%20xmlns:xlink=%22http://www.w3.org/1999/xlink%22%20x=%220px%22%20y=%220px%22%20width=%2212px%22%20height=%228px%22%20viewBox=%220%200%2012%208%22%20enable-background=%22new%200%200%2012%208%22%20xml:space=%22preserve%22%3E%3Cpolygon%20fill=%22white%22%20points=%225.999,3.376%201.6,8%200,6.303%205.999,0%2012,6.303%2010.4,8%20%22/%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+
+.old-ie .scroll-top:before {
+	background-image: url(//f.goodq.top/qfy-content/themes/qfy-01/images/old-ie.png);
+	background-repeat: no-repeat;
+	background-position: 0 -860px;
+}
+
+/*Scroll top:end*/

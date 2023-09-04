@@ -1,0 +1,29 @@
+.right_nav_bar{position: fixed;right: 0;top: 50%;z-index: 10001;list-style: outside none none;width: 54px;}
+.right_nav_bar li{position:relative;list-style: outside none none;float: left;height: 54px;width: 54px;}
+.right_nav_bar .icons{height:54px;width:54px;float:left;position: absolute;right:0;transition: all 0.3s ease 0s;overflow:hidden;word-break:keep-all;white-space:nowrap;}
+.right_nav_bar span.title{padding-right:10px;color:#fff;position: relative;top: 17px;}
+.right_nav_bar i.icon{background-image: url("//f.goodq.top/qfy-content/plugins/qfy_editor/assets/images/pic.png");height: 30px;margin: 12px;width: 30px;display:inline-block;}
+.black.right_nav_bar span.title{color:black;}
+.right_nav_bar .qq-icon i{background-position: 30px -40px;}
+.black.right_nav_bar .qq-icon i{background-position: 0px -40px;}
+.right_nav_bar .weixin-icon i{background-position: 30px -80px;}
+.black.right_nav_bar .weixin-icon i{background-position: 0px -80px;}
+.right_nav_bar .weibo-icon i{background-position: 30px -297px;}
+.black.right_nav_bar .weibo-icon i{background-position: 0 -297px}
+.right_nav_bar .phone-icon i{background-position: 30px 0px;}
+.black.right_nav_bar .phone-icon i{background-position: 0px 0px;}
+.right_nav_bar .whatsapp-icon i{background-position: 30px -378px;}
+.black.right_nav_bar .whatsapp-icon i{background-position: 0px -378px;}
+
+.right_nav_bar .support-icon i{background-position: 30px -117px;}
+.black.right_nav_bar .support-icon i{background-position: 0 -117px;;}
+.right_nav_bar .skype-icon i{background-position: 30px -338px;}
+.black.right_nav_bar .skype-icon i{background-position: 0 -338px;;}
+.right_nav_bar .email-icon i{background-position: 30px -147px;}
+.black.right_nav_bar .email-icon i{background-position: 0px -147px;}
+.right_nav_bar .word-icon i{background-position: 30px -184px;}
+.black.right_nav_bar .word-icon i{background-position: 0px -184px;}
+.right_nav_bar .concat-icon i{background-position: 30px -225px;}
+.black.right_nav_bar .concat-icon i{background-position: 0px -225px;}
+.right_nav_bar .totop-icon i{background-position: 30px -264px;}
+.black.right_nav_bar .totop-icon i{background-position: 0px -264px;}
