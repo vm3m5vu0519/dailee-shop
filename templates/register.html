@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>DaiLee工作室會員註冊</title>
+  <link rel="stylesheet" href="../static/css/index.css">
+  <link href="../static/css/animate.css" rel="Stylesheet" />
+  <link href="../static/css/login.css" rel="stylesheet" />
+  <link rel="icon" href="../static/images/index/py.ico">
+  <script src="../static/js/init.js"></script>
+</head>
+
+<body>
+  <!-- 頁面頂部-->
+  <header id="top">
+    <div class="top">
+      <a href="index.html">
+        <img src="../static/images/header/logo.png" alt="" />
+      </a>
+      <span>歡迎註冊</span>
+    </div>
+  </header>
+  <div class="parent">
+    <!--<video src="audio/snow.mp4" width="100%" autoplay loop muted></video>-->
+    <div class="container">
+      <div class="panel rt">
+        <div id="form-register">
+          <div class="txt">
+            <p>新用戶註冊
+              <span>
+                <a href="login.html">直接登入</a>
+              </span>
+            </p>
+          </div>
+          <div class="form-group">
+            <label for="email">信箱：</label>
+            <input autocomplete required type="email" placeholder="請輸入信箱" value="dailee@gmail.com"  name="email" id="email" />
+            <span class="msg-default hidden">請符合信箱格式</span>
+            <button type="button" id="send_verification_code" style="background-color: #4caf50; border: none; color: white; padding: 6px 12px; text-align: center; text-decoration: none; display: inline-block; font-size: 14px; margin: 4px 2px; cursor: pointer;">發送驗證碼</button>
+          </div>
+          <div class="form-group">
+            <label for="verification_code">信箱驗證碼:</label>
+            <input type="text" id="verification_code" name="verification_code" required>
+            <span class="msg-default hidden">請符合信箱格式</span>
+          </div>
+          <div class="form-group">
+            <label for="username">用戶名：</label>
+            <input autocomplete required minlength="6" maxlength="15" type="text" placeholder="請輸入用戶名" autofocus name="username"
+              id="username" />
+            <span class="msg-default" >用戶名長度在6到15位之間</span>
+          </div>
+          <div class="form-group">
+            <label for="upwd">登入密碼：</label>
+            <input required type="password" minlength="6" maxlength="12" placeholder="請輸入密碼" name="upwd" autofocus id="upwd" />
+            <span class="msg-default">密碼長度在6到12位之間</span>
+          </div>
+          <div class="form-group">
+            <label for="phone">手機：</label>
+            <input id="phone" name="phone" placeholder="請輸入您的手機號碼" required type="text" value="" />
+            <span class="msg-default hidden">請輸入格式正確的手機號碼</span>
+          </div>
+          <div class="form-group">
+            <label for="gender">性別：</label>
+            <label for="male">
+              <input type="radio" name="gender" value="male" id="male">
+              男
+            </label>
+            
+            <label for="female">
+              <input type="radio" name="gender" value="female" id="female">
+              女
+            </label>
+          </div>
+          <div class="form-group">
+            <label></label>
+            <input type="button" value="註冊" id="bt-register" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 页面底部-->
+  <div class="foot_bj">
+    <div id="foot">
+        <div class="lf">
+            <p class="footer1"><img src="../static/images/footer/fd5d86fe101434f1f1d8290d22e82bbb_tn" alt="" class=" footLogo"/></p>
+        </div>
+        <div class="foot_left lf" >
+            <ul>
+                <li><a href="#"><h3>最新消息</h3></a></li>
+                <li><a href="#">優惠專區</a></li>
+                <li><a href="#">得獎公告</a></li>
+                <li><a href="#">反詐騙公告</a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><h3>賣家幫助</h3></a></li>
+                <li><a href="#">新手指南</a></li>
+                <li><a href="#">服務保障</a></li>
+                <li><a href="#">常見問題</a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><h3>商家幫助</h3></a></li>
+                <li><a href="#">商駐</a></li>
+                <li><a href="#">商家後台</a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><h3>關於我們</h3></a></li>
+                <li><a href="#">關於DaiLee</a></li>
+                <li><a href="#">聯繫我們</a></li>
+            </ul>
+        </div>
+        <div class="service">
+            <p>DaiLee商城客户端</p>
+            <img src="../static/images/footer/ios.png" class="lf">
+            <img src="../static/images/footer/android.png" alt="" class="lf"/>
+        </div>
+        <div class="download">
+            <img src="../static/images/footer/qrcode_shopee.tw.png">
+        </div>
+        
+		<!-- 頁面底部-備案號 #footer -->
+        <div class="record">
+            <p>&copy;2023 DaiLee工作室 版權所有</p>
+            <img src="../static/images/footer/icon11.png" style="margin-right: 10px;">
+            <img src="../static/images/footer/icon33.png" style="margin-right: 10px;">
+            <img src="../static/images/footer/icon44.png" style="margin-right: 10px;">
+            <img src="../static/images/footer/icon55.png" style="margin-right: 10px;">
+            <img src="../static/images/footer/icon66.png" style="margin-right: 10px;">
+            <img src="../static/images/footer/icon77.png" style="margin-right: 10px;">
+            <img src="../static/images/footer/icon99.png">
+        </div>
+    </div>
+</div>
+  <script src="../static/js/jquery-3.1.1.min.js"></script>
+  <script>
+    /**
+      * @let {Array} validation [驗證結果集合]
+      */
+    function checkUname(){
+       return $('#username').val().length<6||$('#username').val().length>15
+    }
+    function checkPWD(){
+        return $('#upwd').val().length<6||$('#upwd').val().length>12
+    }
+    function checkEmail(){
+　　     var myReg=/^[a-zA-Z0-9_-]+@([a-zA-Z0-9]+\.)+(com|cn|net|org)$/;
+    　　 return myReg.test($('#email').val())
+    }
+    //  function checkPhone() {
+    //     var myReg = /^1[3|4|5|6|7|8|9][0-9]{9}$/;
+    //     return myReg.test($('#phone').val())
+    // }
+    // $('#uname').blur(function () {
+    //   if(checkUname()){
+    //     $('.msg-default')[0].setAttribute('class','msg-default')
+    //   }else {
+    //     $('.msg-default')[0].setAttribute('class','msg-default hidden')
+    //   }
+    // });
+    // $('#upwd').blur(function () {
+    //   if(checkPWD()){
+    //     $('.msg-default')[1].setAttribute('class','msg-default')
+    //   }else {
+    //     $('.msg-default')[1].setAttribute('class','msg-default hidden')
+    //   }
+    // });
+    $('#email').blur(function () {
+        console.log(checkEmail())
+        if(checkEmail()){
+            $('.msg-default')[2].setAttribute('class','msg-default hidden')
+        }else {
+            $('.msg-default')[2].setAttribute('class','msg-default')
+        }
+    });
+    // $('#phone').blur(function () {
+    //     if(checkPhone()){
+    //         $('.msg-default')[3].setAttribute('class','msg-default hidden')
+    //     }else {
+    //         $('.msg-default')[3].setAttribute('class','msg-default')
+    //     }
+    // });
+    $(document).ready(function() {
+  $('#send_verification_code').click(function() {
+    var email = $('#email').val();
+
+    $.ajax({
+      url: baseUrl+"/dailee/users/register",
+      type: 'POST',
+      data: JSON.stringify({ email: email }),
+      dataType: 'json',
+      contentType: 'application/json',
+      success: function(response) {
+        alert('驗證碼已發送');
+      },
+      error: function(xhr, errmsg, err) {
+        alert('Error: ' + xhr.status + ': ' + xhr.responseText);
+      }
+    });
+  });
+});
+    $('#bt-register').click(function () {
+      /**
+       * @let {Array} validation [验证结果结合]
+       */
+      if(!checkUname()&&!checkPWD()&&checkEmail()){
+          $.ajax({
+        type: "put",
+        url: baseUrl+"/dailee/users/register",
+        contentType:'application/json',
+        datatype: "json",
+        data: JSON.stringify({
+          "username": $('#username').val(),
+          "password": $('#upwd').val(),
+          "phone": $('#phone').val(),
+          "email": $('#email').val(),
+          "gender": $('input[name="gender"]:checked').val(),
+          "verification_code": $('#verification_code').val(),
+          "carts":localStorage.getItem('cart'),
+        }),
+        success: function (data) { //成功的回调函数
+            if (data.code === 200){
+                //window.localStorage.setItem('dashop_token', data.data.token);
+                //window.localStorage.setItem('dashop_user', data.username);
+                window.localStorage.setItem('token', data.token);
+                window.localStorage.setItem('username', data.username);
+                window.localStorage.setItem('count', data.count);
+                alert('註冊成功！');
+                window.location.href = '/dailee/templates/login.html';
+            }else {
+                alert(data.error);
+            }
+        },
+        error: function (e) {
+          alert(data);
+        }
+      });
+      }else{
+          alert('請按照要求填寫信息')
+      }
+
+    })
+  </script>
+</body>
+
+</html>

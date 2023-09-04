@@ -1,0 +1,2023 @@
+.required
+{
+	color:red;
+}
+.polaroid-images a
+{
+	background: white;
+	display: inline;
+	float: left;
+	margin: 0 15px 30px;
+	padding: 10px 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	-webkit-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	transition: all .15s linear;
+	z-index:0;
+	width:100px;
+}
+.polaroid-images a:after {
+	color: #333;
+	font-size: 20px;
+	content: attr(title);
+	position: relative;
+	top:15px;
+}
+
+.polaroid-images img {
+	display: block;
+	width: inherit;
+}
+
+.polaroid-images a:nth-child(2n)
+{
+	transform: rotate(4deg);
+}
+.polaroid-images a:nth-child(3n) {
+	transform: rotate(-24deg);
+}
+.polaroid-images a:nth-child(4n)
+{
+	transform: rotate(14deg);
+}
+.polaroid-images a:nth-child(5n)
+{
+	transform: rotate(-18deg);
+}
+.polaroid-images a:hover{
+        transform: rotate(0deg);
+        transform: scale(1.2);
+	z-index:10;
+        box-shadow: 0 10px 20px rgba(0,0,0,.7);
+}
+
+
+.ui-datepicker  {
+	font-size: 90%;
+	background: #333 !important;
+	font-family: "Arial", "Micro Yahei", "Lucida Sans Unicode", Helvetica, Verdana, sans-serif !important;
+	border: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+
+.ui-datepicker select {padding: 2px !important;border-radius: 0 !important; font-size: 11px !important; color: #666;border: 1px solid #2e3641 !important;}
+
+.ui-datepicker table {
+	margin-bottom: 0!important;
+}
+
+.ui-datepicker-header {
+	border: none;
+	background: transparent !important;
+	font-weight: normal;
+	font-size: 15px;
+	border: none !important;
+}
+
+.ui-datepicker-header .ui-state-hover {
+	background: transparent;
+	border-color: transparent;
+	cursor: pointer;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+
+.ui-datepicker .ui-datepicker-title {
+	margin-top: .4em;
+	margin-bottom: .3em;
+	color: #e9f0f4;
+}
+
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover,
+.ui-datepicker .ui-datepicker-next,
+.ui-datepicker .ui-datepicker-prev {
+	top: .9em;
+	border: medium none;
+	background: none !important;
+	border-color: transparent !important;
+}
+
+.ui-datepicker .ui-datepicker-prev-hover {
+	left: 2px;
+}
+
+.ui-datepicker .ui-datepicker-next-hover {
+	right: 2px;
+}
+
+.ui-datepicker .ui-datepicker-next span,
+.ui-datepicker .ui-datepicker-prev span {
+	background-image: url(//f.goodq.top/qfy-content/plugins/qfyuser/img/ui-icons_ffffff_256x240.png);
+	background-position: -32px 0;
+	margin-top: 0;
+	top: 0;
+	font-weight: normal;
+}
+
+.ui-datepicker .ui-datepicker-prev span {
+	background-position: -96px 0;
+}
+
+.ui-datepicker table {
+	margin: 0;
+}
+
+.ui-datepicker th {
+	padding: 1em 0;
+	color: #373737;
+	font-size: 12px !important;
+	font-weight: normal;
+	border: none;
+	border-top: 1px solid #3a414d;
+	background: #EFEFEF !important;
+}
+
+.ui-datepicker thead {
+	border-left: 1px solid #3a414d !important;
+	border-right: 1px solid #3a414d !important;
+}
+
+.ui-datepicker tbody {
+	border-left: 1px solid #3a414d !important;
+	border-right: 1px solid #3a414d !important;
+	border-bottom: 1px solid #3a414d !important;
+}
+
+.ui-datepicker td {
+	font-size: 12px !important;
+	background: #FFF;
+	border: none;
+	padding: 0 !important;
+}
+
+.ui-datepicker td .ui-state-default {
+	background: transparent;
+	border: none;
+	text-align: center;
+	padding: .5em;
+	margin: 0;
+	font-weight: normal;
+	color: #373737;
+}
+
+.ui-datepicker .ui-state-disabled  {
+	opacity: 1;
+}
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled{
+	opacity: 1 !important;
+}
+.ui-datepicker .ui-state-disabled .ui-state-default {
+	color: #FFF;
+}
+
+.ui-datepicker td .ui-state-active,
+.ui-datepicker td .ui-state-hover {
+	background: #333;
+	color:#fff;
+}
+
+
+
+div.qfyuser input[type=text].qfyuser-datepicker,
+div.qfyuser input[type=text].qfyuser-datepicker:focus{
+	background-image: url(//f.goodq.top/qfy-content/plugins/qfyuser/img/datepicker.png) !important;
+	background-position: 8px center !important;
+	background-repeat: no-repeat !important;
+	padding-left: 34px !important;
+}
+
+/* Tipsy */
+.tipsy { font-size: 11px; position: absolute; padding: 5px; z-index: 2000000; }
+.tipsy-inner {max-width: 200px; padding: 4px 10px; text-align: left; line-height: 16px !important; text-shadow: none }
+.tipsy-arrow { position: absolute; width: 0; height: 0; line-height: 0;}
+.tipsy-n .tipsy-arrow { top: 0px; left: 50%; margin-left: -5px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent; }
+.tipsy-nw .tipsy-arrow { top: 0; left: 10px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent;}
+.tipsy-ne .tipsy-arrow { top: 0; right: 10px; border-bottom-style: solid; border-top: none;  border-left-color: transparent; border-right-color: transparent;}
+.tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+.tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+.tipsy-se .tipsy-arrow { bottom: 0; right: 10px; border-top-style: solid; border-bottom: none; border-left-color: transparent; border-right-color: transparent; }
+.tipsy-e .tipsy-arrow { right: 0; top: 50%; margin-top: -5px; border-left-style: solid; border-right: none; border-top-color: transparent; border-bottom-color: transparent; }
+.tipsy-w .tipsy-arrow { left: 0; top: 50%; margin-top: -5px; border-right-style: solid; border-left: none; border-top-color: transparent; border-bottom-color: transparent; }
+
+/* plugin core */
+
+div.qfyuser * {padding:0; margin:0;text-decoration: none;outline:none;border:0;letter-spacing: 0px}
+
+div.qfyuser form {margin: 0 !important}
+
+/* widget */
+div.qfyuser {
+	font-size: 12px !important;
+	line-height: 1 !important;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	text-shadow: none;
+}
+
+div.qfyuser-custom-center * {
+	text-align: center;
+	margin: 0 auto;
+}
+div.qfyuser-custom-left {float: left;}
+div.qfyuser-custom-right {float: right;}
+
+div.qfyuser .chosen-container,
+div.emd-filters .chosen-container
+ {width: 100% !important}
+
+/* input stuff */
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {border:0;padding:0;margin:0;}
+
+input[disabled],
+input[disabled]:hover,
+input[disabled]:focus{
+	opacity: 0.7;
+	cursor: default !important;
+}
+
+div.qfyuser input,
+div.qfyuser textarea,
+div.qfyuser select
+{font-size: 12px !important;}
+
+/* common */
+div.qfyuser-clear {clear: both}
+div.qfyuser-left {float: left}
+.qfyuser-force-center {float: none !important}
+div.qfyuser-right {float: right}
+
+div.qfyuser video { width: 100% !important; height: auto !important; }
+div.qfyuser iframe{
+	display: block;
+	overflow: hidden;
+}
+
+/* misc elements */
+div.qfyuser-help {
+	margin: 5px 0 0 0;
+}
+
+div.qfyuser-help i {
+	font-size: 20px !important;
+	margin: 0 10px 0 0;
+}
+
+div.qfyuser-warning {
+	font-size: 12px;
+	display: inline-block;
+	padding: 4px 10px;
+	line-height: 14px !important;
+	border-radius: 3px !important;
+	position: relative;
+	transition: all .2s linear;
+	margin: 10px 0 0 0;
+	top: -20px;
+	opacity: 0;
+}
+div.qfyuser-warning i {
+	position: absolute;
+	top: -16px;
+	left: 5px;
+	font-size: 24px;
+}
+
+div.qfyuser-warning a:hover {text-decoration: underline}
+
+div.qfyuser-message {margin: 15px 0 0 0}
+div.qfyuser div.qfyuser-message p {padding: 10px !important;line-height: 1.5em;}
+div.qfyuser p {padding: 0!important;margin: 15px 0 0 0 !important;}
+div.qfyuser div.qfyuser-input p {padding:0!important;margin: 0 0 8px 0 !important;}
+
+div.qfyuser-message.qfyuser-message-demo {margin-top: 0}
+div.qfyuser-message.qfyuser-message-demo p{
+	color: #fff !important;
+    border: solid 1px #ae3737 !important;
+	background: #ae3737 !important;
+	margin-top: 0;
+	padding: 10px !important;line-height: 1.5em;
+	font-size: 12px !important;
+}
+div.qfyuser-message.qfyuser-message-demo a{color:#fff !important;text-decoration: underline !important}
+
+/* strength meter */
+span.strength-container {
+	float: left;
+	top: -6px;
+	position: relative;
+}
+span.strength-plain{
+	float: left;
+	width: 40px;
+	height: 6px;
+}
+span.strength-text {
+	float: left;
+	font-size: 13px;
+	padding: 0 0 14px 0;
+}
+
+/* spinner */
+img.qfyuser-loading, div.qfyuser img.qfyuser-loading {
+	position: relative;
+	top: 7px;
+	display: none !important;
+	box-shadow: none !important;
+	vertical-align: top !important;
+}
+
+div.qfyuser-field  img.qfyuser-loading.inline {
+	display: inline !important;
+}
+
+/* social buttons */
+div.qfyuser-profile-icons.top {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+div.qfyuser-profile-icons.bottom {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+
+a.qfyuser-small-link {
+	margin: 0 0 0 10px !important;
+	padding: 0 10px !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	font-size: 11px !important;
+	height: 21px !important;
+	line-height: 21px !important;
+}
+
+a.qfyuser-profile-icon {
+	float: none !important;
+	display: inline-block;
+	padding: 0;
+	cursor: pointer !important;
+	opacity: 1 !important;
+	border-radius: 999px;
+	text-align: center;
+	width: 26px !important;
+	height: 26px !important;
+	line-height: 26px !important;
+	font-size: 14px !important;
+	margin: 0 4px 4px 0;
+	text-decoration: none !important;
+}
+
+/* buttons */
+input.qfyuser-button,
+a.qfyuser-button,
+div.qfyuser div.ajax-file-upload {
+	display: inline-block;
+	cursor: pointer  !important;
+	padding: 0 10px  !important;
+	margin-right: 15px  !important;
+	font-weight: normal !important;
+	text-decoration: none !important;
+	transition: none !important;
+}
+input.qfyuser-button,div.qfyuser-input img.qfyuser-img {height: 29px !important; line-height: 29px !important}
+a.qfyuser-button,div.qfyuser div.ajax-file-upload {height: 27px !important; line-height: 27px !important}
+
+div.qfyuser-submit input[type=submit].qfyuser-button {
+	vertical-align: baseline !important;
+	display: inline-block !important;
+	padding: 0 10px !important;
+	margin: 0 !important;
+	margin-right: 15px  !important;
+	top: 0 !important;
+}
+
+div.qfyuser-submit input {
+	vertical-align: baseline !important;
+	display: inline-block !important;
+	width: auto !important;
+	font-size: 13px !important;
+	height: 30px !important;
+	line-height: 30px !important;
+	margin: 0 !important;
+	margin-right: 15px  !important;
+}
+
+/* head part */
+div.qfyuser-head {
+	padding: 15px;
+	position: relative;
+}
+
+div.qfyuser-head div.qfyuser-left {
+	font-size: 14px !important;
+}
+
+div.qfyuser-head div.qfyuser-right {margin: 2px 0 0 0; font-size: 13px !important}
+div.qfyuser-head div.qfyuser-right a:hover {text-decoration: underline}
+div.qfyuser-head div.qfyuser-right a{line-height: 13px;}
+
+div.qfyuser-head div.qfyuser-left i {
+	font-size: 24px !important;
+	margin: 0 12px 0 0;
+	position: relative;
+	top: 1px;
+	text-shadow: inset 0 -1px 4px #fff;
+}
+
+/* body part */
+div.qfyuser-body {
+	padding: 0 15px 15px 15px;
+	line-height: 18px !important;
+}
+
+div.qfyuser-body.qfyuser-body-nopad {
+	padding: 0 !important;
+}
+
+div.qfyuser-body  a:hover {text-decoration: underline}
+
+div.qfyuser-users div.qfyuser-body div.qfyuser-user a:hover {text-decoration:none}
+div.qfyuser-users div.qfyuser-body div.qfyuser-paginate a:hover {text-decoration:none}
+
+div.qfyuser-body div.qfyuser-field-view {
+	/*line-height: 22px !important;*/
+}
+
+/* profile css */
+div.qfyuser-centered,
+div.qfyuser-centered-c {
+	text-align: center;
+	position: relative;
+	padding: 15px 0;
+}
+div.qfyuser-centered-c {padding: 15px 0;}
+div.qfyuser-centered-c div.qfyuser-profile-img {width: 64px !important; height: 64px !important;}
+
+div.qfyuser-centered div.qfyuser-profile-icons.top,
+div.qfyuser-centered-c div.qfyuser-profile-icons.top {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+div.qfyuser-centered img.qfyuser-loading,
+div.qfyuser-centered-c img.qfyuser-loading {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+div.qfyuser-profile-img {
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 0 5px 0;
+}
+
+div.qfyuser-head div.qfyuser-left div.qfyuser-profile-img {
+	float: left;
+	margin: 0 15px 0 0;
+	padding: 0;
+}
+div.qfyuser-head div.qfyuser-left div.qfyuser-profile-img-after {
+	float: left;
+}
+
+div.qfyuser-head div.qfyuser-left div.qfyuser-profile-img {
+	width: 64px;
+	height: 64px;
+}
+
+div.qfyuser-profile-img img {
+	box-shadow: none !important;
+	padding: 0 !important;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.qfyuser-centered-icons {
+	text-align: center;
+	margin: 0 auto;
+	padding: 15px 0 0 0;
+}
+
+div.qfyuser-centered-icons a.qfyuser-profile-icon {
+	float: none !important;
+	display: inline-block;
+	padding: 0;
+	cursor: pointer !important;
+	opacity: 1 !important;
+	border-radius: 999px;
+	text-align: center;
+	width: 26px !important;
+	height: 26px !important;
+	line-height: 26px !important;
+	font-size: 14px !important;
+	margin: 0 2px;
+}
+div.qfyuser-centered-icons a.qfyuser-profile-icon i {line-height: 26px !important;}
+
+div.qfyuser-profile-img-btn {
+	font-size: 12px !important;
+	margin: 10px 0 0 0;
+}
+div.qfyuser-profile-img-btn a.qfyuser-button {margin-right: 0 !important}
+
+div.qfyuser-profile-name {
+	font-size: 24px !important;
+	line-height: 24px !important;
+}
+
+div.qfyuser-profile-name a {
+	line-height: 30px !important;
+}
+
+div.qfyuser-profile-name.small {
+	font-size: 14px !important;
+	line-height: 20px !important;
+}
+
+/* badges */
+span.qfyuser-badges {
+	display: block !important;
+	margin: 0 auto !important;
+	text-align: center !important;
+	max-width: 100px !important;
+}
+
+div.qfyuser-awsm-name span.qfyuser-badges {
+	margin-top: 5px !important;
+}
+
+img.qfyuser-profile-badge-right { /* inline badge */
+	margin: 0 0 0 6px !important;
+	top: -1px !important;
+	vertical-align: middle !important;
+	box-shadow: none !important;
+	padding: 0 !important;
+	max-width: 16px !important;
+	max-height: 16px !important;
+	position: relative !important;
+	display: inline !important;
+}
+
+img.qfyuser-profile-badge {
+	margin: 0 2px !important;
+	top: 0 !important;
+	vertical-align: middle !important;
+	box-shadow: none !important;
+	padding: 0 !important;
+	max-width: 16px !important;
+	max-height: 16px !important;
+	position: relative !important;
+	display: inline !important;
+}
+
+div.qfyuser-sc span.qfyuser-badges,
+div.qfyuser-list-item span.qfyuser-badges,
+div.qfyuser-online-item span.qfyuser-badges,
+div.qfyuser-head span.qfyuser-badges,
+span.qfyuser-badges.inline
+{
+	display: inline !important;
+	max-width: auto !important;
+	margin: 0 0 0 4px !important;
+}
+div.qfyuser-sc span.qfyuser-badges img.qfyuser-profile-badge,
+div.qfyuser-list-item  span.qfyuser-badges img.qfyuser-profile-badge,
+div.qfyuser-online-item span.qfyuser-badges img.qfyuser-profile-badge,
+div.qfyuser-head span.qfyuser-badges img.qfyuser-profile-badge,
+span.qfyuser-badges.inline img.qfyuser-profile-badge
+{
+	top: -1px !important;
+	margin: 0 0 0 4px !important;
+}
+
+div.qfyuser-list-item img.qfyuser-profile-badge.qfyuser-hide-from-list {display: none !important;}
+div.qfyuser-online-item img.qfyuser-profile-badge.qfyuser-hide-from-list {display: none !important;}
+
+/* form section */
+div.qfyuser-section {
+	margin: 15px 0 0 0;
+	padding: 0 0 8px 0 !important;
+	font-size: 13px;
+	position: relative;
+	transition: all .2s linear !important;
+}
+
+ins.qfyuser-section-warning {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	text-decoration: none !important;
+	text-shadow: none !important;
+	border-radius: 3px;
+	font-size: 11px !important;
+	line-height: 19px !important;
+	font-weight: normal !important;
+	text-transform: none !important;
+	padding: 0 6px !important;
+	display: none;
+}
+
+div.qfyuser-collapsible-1 {
+	cursor: pointer;
+}
+
+div.qfyuser-collapsible-1 span {
+	margin: 0 10px 0 0;
+	font-size: 18px;
+	position: relative;
+	top: 1px;
+}
+
+/* form fields */
+div.qfyuser-field {margin: 15px 0 0 0;border:1px solid transparent;}
+div.qfyuser-field.qfyuser-field-compact {margin: 5px 0 0 0}
+div.qfyuser-field-private {display: none!important}
+div.qfyuser-field.qfyuser-submit {padding-top: 15px;position: relative}
+
+/* label */
+div.qfyuser-label label {
+	float: left;
+	margin-right: 8px !important;
+	font-size: 12px !important;
+	font-weight: bold !important;
+	word-wrap: break-word !important;
+	padding: 0!important;
+}
+
+div.qfyuser-label span.qfyuser-field-icon {
+	position: absolute;
+	width: 32px !important;
+	height: 32px !important;
+	line-height: 32px !important;
+	left: -32px;
+	text-align: center;
+	top: -8px;
+	font-size: 18px;
+	cursor: default !important;
+}
+div.qfyuser-label span.qfyuser-field-icon i {line-height: 32px !important}
+
+div.qfyuser-label {
+	float: left;
+	margin: 0 0 4px 0;
+	width: 100%;
+	position: relative;
+	z-index: 5;
+}
+div.qfyuser-label.iconed {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+div.qfyuser-float div.qfyuser-label {
+	float: left;
+	width: 34%;
+	margin: 5px 0 0 0;
+}
+
+div.qfyuser-label.view {margin: 0 0 4px 0;}
+div.qfyuser-float div.qfyuser-label.view {margin: 0;}
+div.qfyuser-input label {cursor: pointer !important;}
+div.qfyuser-label label {cursor: pointer !important;}
+div.qfyuser-label.view label {cursor: default !important;}
+
+div.qfyuser-input {
+	float: left;
+	width: 100%;
+}
+.hiddenlabel div.qfyuser-label{
+	display:none;
+}
+.hiddenlabel div.qfyuser-input {
+	width: 100% !important;
+}
+div.qfyuser-input a.lightview {
+	margin: 3px 0 0 0;
+	display: block;
+	padding: 1px;
+	border: 1px solid #ddd;
+	background: #fff;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+	max-width:64px;
+}
+div.qfyuser-input a.lightview span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -16px;
+	margin-left: -16px;
+	width: 32px;
+	height: 32px;
+	opacity: 0.7;
+}
+div.qfyuser-input a.lightview:hover span {opacity: 1}
+div.qfyuser-input a.lightview img {display: block;overflow: hidden;}
+
+span.qfyuser-tip {
+	float: left;
+	width: 14px;
+	height: 14px;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+span.qfyuser-tip:hover {opacity: 1}
+
+/* input area */
+div.qfyuser-float div.qfyuser-input {
+	float: right;
+	width: 64%;
+}
+
+div.qfyuser-input {position: relative}
+
+div.qfyuser-maxwidth div.qfyuser-input {
+	float: none !important;
+	width: 100% !important;
+	margin: 15px 0 0 0;
+}
+
+/* text inputs, radio, etc */
+div.qfyuser-input img {
+	max-width: 100%!important;
+	height: auto !important;
+}
+
+img.qfyuser-flag-normal {
+	width: 24px;
+	height: 24px;
+	margin: 0 10px 0 0 !important;
+	vertical-align: middle !important;
+	font-size: 0px !important;
+}
+
+div.qfyuser-input i.qfyuser-meta-value{margin: 0 0 0 10px;font-size: 15px;}
+
+div.qfyuser-input div.icon-ok {
+	position: absolute;
+	top: -1px;
+	right: 0px;
+	text-align: center !important;
+	cursor: default !important;
+	font-size: 20px !important;
+	width: 30px !important;
+	height: 30px !important;
+	line-height: 30px !important;
+}
+div.qfyuser-input div.icon-ok i {
+	cursor: default !important;
+	font-size: 20px !important;
+	width: 30px !important;
+	height: 30px !important;
+	line-height: 30px !important;
+}
+
+div.qfyuser-input input[type=text],
+div.qfyuser-input input[type=password],
+div.qfyuser-input textarea,
+div.qfyuser-input select
+{
+	padding: 5px 8px !important;
+	width: 100% !important;
+	box-sizing: border-box;
+	height: auto;
+	margin: 0 !important;
+	font-size: 13px !important;
+}
+div.qfyuser-input textarea{ line-height: 1.6em; min-height:80px; padding: 8px 10px !important; }
+div.qfyuser-input textarea.normal{height:100px}
+div.qfyuser-input textarea.small{height:80px}
+div.qfyuser-input textarea.large{height:120px}
+
+div.qfyuser-input input[type=text],
+div.qfyuser-input input[type=password] {
+	padding: 0 8px !important;
+	height: 30px !important;
+	line-height: 30px !important;
+}
+
+/* checkbox and radio stuff */
+div.qfyuser-input label.qfyuser-checkbox.hide-field {
+	display: inline-block;
+	font-weight: normal!important;
+	font-size:12px;
+	text-transform: uppercase;
+}
+div.qfyuser-input label.qfyuser-radio, div.qfyuser-input label.qfyuser-checkbox {
+	position:relative;
+	padding:0 25px;
+	margin:5px 0;
+	display:inline-block;
+	font-size:13px;
+	font-weight:normal !important;
+}
+div.qfyuser-input label.qfyuser-radio.full, div.qfyuser-input label.qfyuser-checkbox.full  {width: auto !important;display: block; }
+div.qfyuser-input label.qfyuser-radio input[type=radio], div.qfyuser-input label.qfyuser-checkbox input[type=checkbox]{display: none !important}
+div.qfyuser-input label.qfyuser-radio span, div.qfyuser-input label.qfyuser-checkbox span {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 16px;
+	height: 16px;
+}
+
+/* misc inputs */
+div.qfyuser-pic {
+	margin: 0 0 12px 0;
+}
+div.qfyuser-pic.qfyuser-pic-nomargin {margin:0!important}
+
+div.qfyuser-pic img {
+	float: none !important;
+	display: block !important;
+	overflow: hidden;
+	max-width: 100%!important;
+	height: auto !important;
+	box-shadow: none !important;
+	padding: 0 !important;
+}
+
+div.qfyuser-pic-post_featured_image span.qfyuser-pic-none {
+	margin: 0 0 10px 0 !important;
+	display: block;
+}
+
+div.qfyuser-pic-post_featured_image img.no_feature {
+	display: none !important;
+	margin: 0 !important;
+}
+
+div.qfyuser-pic-post_featured_image img {margin: 0 0 12px 0!important}
+
+/* file icons */
+div.qfyuser-file-input a{
+	padding: 0 0 0 30px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 16px !important;
+	line-height: 16px !important;
+	display: inline-block;
+}
+
+div.qfyuser-file-input a.zip {background-image: url(//f.goodq.top/qfy-content/plugins/qfyuser/img/file-zip.png)}
+div.qfyuser-file-input a.txt {background-image: url(//f.goodq.top/qfy-content/plugins/qfyuser/img/file-txt.png)}
+div.qfyuser-file-input a.pdf {background-image: url(//f.goodq.top/qfy-content/plugins/qfyuser/img/file-pdf.png)}
+div.qfyuser-file-input a.file {background-image: url(//f.goodq.top/qfy-content/plugins/qfyuser/img/file.png)}
+
+/* file upload control */
+div.ajax-file-upload-statusbar {
+	width: 100%;
+	margin: 10px 0 0 0;
+}
+
+div.ajax-file-upload-progress {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+	height: 4px;
+}
+
+div.ajax-file-upload-bar{
+	width: 0;
+	height: 4px;
+}
+
+div.ajax-file-upload-percent{
+	position: absolute;
+	display: inline-block;
+	top: 3px;
+	left: 48%;
+}
+
+/* modal */
+div.qfyuser-modal-inner {
+	width: 300px;
+	margin-left: -150px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	z-index: 190003;
+	background: #fff;
+	box-shadow: 0 0 10px 0 #aaa;
+	box-sizing: border-box;
+	padding: 20px;
+	font-size: 14px;
+	color: #444;
+	border-radius: 3px;
+	transition: all .8s linear;
+	opacity: 0;
+}
+
+div.qfyuser-modal-inner i.qfyuser-icon-ok {
+	font-size: 22px;
+	margin: 0 12px 0 0;
+	color: #79a519;
+	position: relative;
+	top: 1px;
+}
+
+div.qfyuser-modal-inner i.qfyuser-icon-remove {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	font-size: 12px;
+	color: #ccc;
+	cursor: pointer;
+}
+div.qfyuser-modal-inner i.qfyuser-icon-remove:hover {color:#999}
+
+/* overlay and popup content */
+div.qfyuser-overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 190000;
+}
+
+div.qfyuser-overlay-inner {
+	position: fixed;
+	width: 480px;
+	margin-left: -240px;
+	left: 50%;
+	top: 0;
+	z-index: 190001;
+}
+
+div.qfyuser-overlay-inner div.qfyuser {
+	margin: 0!important;
+	max-width: 100%;
+	position: relative;
+}
+
+div.qfyuser a.qfyuser-close-popup {display: none !important;}
+div.qfyuser-overlay-inner div.qfyuser a.qfyuser-close-popup {
+	display: block !important;
+	position: absolute;
+	right: 0;
+	top: -30px;
+	font-size: 11px !important;
+	text-transform: uppercase;
+	padding: 0 28px 0 0;
+	height: 16px;
+	line-height: 16px;
+	opacity: 0.7;
+}
+
+/* no style - card profile */
+div.qfyuser.qfyuser-nostyle {
+	padding: 15px;
+}
+
+div.qfyuser-card-img img {
+	box-shadow: none !important;
+	max-width: 100% !important;
+	height: auto !important;
+}
+
+div.qfyuser-card-img a:hover {opacity: 0.7}
+
+div.qfyuser-card-info {
+}
+
+div.qfyuser-card-left {float: left;margin: 6px 0 0 0}
+div.qfyuser-card-right {float: right;margin: 10px 0 0 0}
+
+div.qfyuser-card-left, div.qfyuser-card-left a {
+	font-size: 16px !important;
+	line-height: 22px !important;
+	text-decoration: none !important;
+}
+
+div.qfyuser-card-left a:hover {
+	text-decoration: underline !important
+}
+
+div.qfyuser-card-icons {padding: 10px 0 0 0;}
+
+div.qfyuser-card-bio {
+	font-size: 12px !important;
+	line-height: 20px !important;
+}
+
+/* member listing widgets */
+div.qfyuser-users {
+	text-align: center;
+	border: none !important;
+	background: none !important;
+}
+div.qfyuser-user {
+	display: inline-block;
+	text-align: center;
+}
+div.qfyuser-user div.qfyuser-user-link {
+	opacity: 0;
+	margin: 10px 0 0 0;
+	text-align: center;
+	position: relative;
+}
+div.qfyuser-user div.qfyuser-user-link i {
+	position: absolute;
+	top: -26px;
+	left: 50%;
+	font-size: 40px;
+	width: 40px;
+	margin-left: -20px;
+}
+div.qfyuser-user div.qfyuser-user-link a {
+	display: inline-block;
+	padding: 0 10px;
+	vertical-align: top;
+	width: 100%;
+	font-size: 11px;
+	line-height: 27px;
+	height: 27px;
+	overflow: hidden;
+	box-sizing: border-box;
+	word-wrap: break-word;
+}
+div.qfyuser-user a.qfyuser-user-img {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+div.qfyuser-user a.qfyuser-user-img  img {border-radius: 3px}
+div.qfyuser-user a.qfyuser-user-img span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 38px;
+	opacity: 0.8;
+}
+div.qfyuser-user img {
+	display: block;
+	overflow: hidden;
+}
+
+/* Members pagination */
+div.qfyuser-paginate.top{margin: 20px 0}
+div.qfyuser-paginate.bottom{margin: 40px 0 0 0}
+
+div.qfyuser-paginate span,
+div.qfyuser-paginate a.page-numbers {
+	padding: 4px 10px !important;
+	margin: 0 2px !important;
+	display: inline-block !important;
+	font-size: 11px !important;
+	height: 19px !important;
+	line-height: 19px !important;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+/* The search form */
+div.qfyuser-search {
+	width: 100%;
+	margin: 0 0 20px 0;
+}
+
+div.qfyuser-search-results {
+	padding: 20px 0;
+	font-size: 28px;
+	font-weight: 300;
+}
+
+form.qfyuser-search-form *{vertical-align: middle !important;float: left;}
+
+form.qfyuser-search-form {
+	display: inline-block;
+	padding: 20px;
+}
+
+form.qfyuser-search-form input[type=text],
+form.qfyuser-search-form div.qfyuser-input input[type=text] {
+	width: 150px !important;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 0 !important;
+	padding: 0 8px !important;
+	margin: 0 10px 0 0 !important;
+	height: 28px !important;
+	float: left !important;
+}
+
+form.qfyuser-search-form div.qfyuser-input {float: none !important}
+
+form.qfyuser-search-form button {
+	font-size: 14px !important;
+	padding: 0 12px;
+	display: inline-block !important;
+	margin: 0 !important;
+	margin: 0 5px 0 0 !important;
+	height: 28px !important;
+}
+
+/* search filters */
+div.qfyuser-search div.emd-filter-head {
+	display: none !important;
+}
+
+div.qfyuser-search .chosen-container-single .chosen-single {
+	height: 26px !important;
+	line-height: 26px !important;
+	width: 120px !important;
+	margin: 0 10px 0 0 !important;
+}
+div.qfyuser-search .chosen-drop {width: 130px !important;}
+div.qfyuser-search .chosen-drop, div.qfyuser-search .chosen-drop * {float: none !important}
+div.qfyuser-search .chosen-drop li {
+	display: block !important;
+	width: auto !important;
+	float: none !important;
+}
+
+/* other buttons */
+a.qfyuser-transition {
+	-webkit-transition: all 0.2s ease-in-out !important;
+	-moz-transition: all 0.2s ease-in-out !important;
+	-o-transition: all 0.2s ease-in-out !important;
+	transition: all 0.2s ease-in-out !important;
+}
+
+a.qfyuser-flat-btn {
+	font-size: 11px !important;
+	font-weight: bold !important;
+	padding: 4px 12px !important;
+	display: inline-block !important;
+	text-decoration: none !important;
+}
+a.qfyuser-flat-btn i {margin-right: 5px!important}
+a.qfyuser-flat-btn:hover {text-decoration: none !important;}
+
+table.qfyuser-table a.qfyuser-flat-btn {
+	font-size: 11px !important;
+	font-weight: bold !important;
+	padding: 4px 12px !important;
+	display: inline-block !important;
+	text-decoration: none !important;
+}
+table.qfyuser-table a.qfyuser-flat-btn i {margin-right: 5px!important;font-size: 14px !important}
+table.qfyuser-table a.qfyuser-flat-btn:hover {text-decoration: none !important;}
+
+table.qfyuser-table a.qfyuser-flat-btn.chat {
+	background: #1e93be !important;
+	color: #fff !important;
+}
+table.qfyuser-table a.qfyuser-flat-btn.chat:hover {
+	background: #27aada !important;
+}
+
+/* latest users widget */
+div.qfyuser-list-item {
+	display: block;
+	padding: 15px 0;
+}
+div.qfyuser-list-item:last-child {border-bottom: 0 !important;padding-bottom: 0px !important}
+
+div.qfyuser-list-item-i {float: left;margin: 0 15px 0 0;}
+div.qfyuser-list-item-i img {	box-shadow: none !important; }
+div.qfyuser-list-item-i a:hover {opacity: 0.8}
+
+div.qfyuser-list-item-d {float: left;}
+
+a.qfyuser-list-item-name {font-size: 13px;}
+a.qfyuser-list-item-name:hover {text-decoration: none !important}
+
+div.qfyuser-list-item-bio {
+	font-size: 12px !important;
+	line-height: 20px !important;
+}
+
+div.qfyuser-list-item-icons {padding: 13px 0 0 0;}
+
+/* online users widget */
+div.qfyuser-online-count {
+	padding: 15px 0 0 0;
+}
+
+div.qfyuser-online-item {
+	display: block;
+	padding: 15px 0;
+}
+div.qfyuser-online-item:last-child {border-bottom: 0 !important;padding-bottom: 0px !important}
+
+div.qfyuser-online-item-i {float: left;margin: 0 15px 0 0;}
+div.qfyuser-online-item-i img {box-shadow: none !important;border: 1px solid #ddd;}
+div.qfyuser-online-item-i a:hover {opacity: 0.8}
+
+div.qfyuser-online-item-d {
+	float: left;
+	margin: 6px 0 0 0;
+}
+
+a.qfyuser-online-item-name {font-size: 13px;}
+a.qfyuser-online-item-name:hover {text-decoration: none !important}
+
+div.qfyuser-online-item-bio {
+	font-size: 12px !important;
+	line-height: 20px !important;
+}
+
+div.qfyuser-online-item-icons {padding: 13px 0 0 0;}
+
+div.qfyuser-online-i { padding: 10px 6px 0 0;display: inline-block !important}
+a.qfyuser-online-i-thumb img {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle !important;
+	padding: 0 2px 0 0 !important;
+}
+a.qfyuser-online-i-name {
+	font-size: 11px !important;
+}
+a.qfyuser-online-i-name:hover {text-decoration: none !important;}
+
+/* speical access in online */
+a.qfyuser-online-i-name.admin,
+a.qfyuser-online-item-name.admin
+{font-weight: bold !important;}
+
+/* social connect buttons */
+div.qfyuser-social-connect {
+	position: absolute;
+	right: 0;
+	top: 14px;
+}
+div.qfyuser-social-connect a {
+	float: left;
+	margin-left: 5px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 32px;
+	height: 32px;
+	display: inline-block !important;
+}
+div.qfyuser-social-connect.fullwidth-block-social{
+	position: relative;
+	top: auto;
+	right: auto;
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+div.qfyuser-social-connect.fullwidth-block-social a {
+	float: none;
+}
+
+div.qfyuser-social-connect a.qfyuser-social-facebook {background-image: url(//f.goodq.top/qfy-content/plugins/qfyuser/img/social/facebook_signin.png);}
+div.qfyuser-social-connect a.qfyuser-social-twitter {background-image: url(//f.goodq.top/qfy-content/plugins/qfyuser/img/social/twitter_signin.png);}
+div.qfyuser-social-connect a.qfyuser-social-google {background-image: url(//f.goodq.top/qfy-content/plugins/qfyuser/img/social/google_signin.png);}
+div.qfyuser-social-connect a.qfyuser-social-linkedin {background-image: url(//f.goodq.top/qfy-content/plugins/qfyuser/img/social/linkedin_signin.jpeg);}
+/* large social connect buttons */
+div.qfyuser-social-big a {
+	margin: 5px 0 !important;
+	display: inline-block !important;
+	width: 100%;
+	border-radius: 5px !important;
+	-moz-border-radius: 5px !important;
+	-webkit-border-radius: 5px !important;
+	border-bottom: 5px solid rgba(0,0,0,0.25);
+	-webkit-font-smoothing: antialiased !important;
+	font-weight: 400;
+	text-align: center;
+	transition: 0.25s;
+	letter-spacing:0.5px;
+	box-sizing: border-box;
+	text-decoration: none !important;
+	color: #fff !important;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+div.qfyuser-social-big a.qfyuser-social-facebook {background: #3b5998;}
+div.qfyuser-social-big a.qfyuser-social-twitter {background: #00aced;}
+div.qfyuser-social-big a.qfyuser-social-google {background: #dd4b39;}
+div.qfyuser-social-big a.qfyuser-social-vk { background: #45668e;}
+div.qfyuser-social-big a.qfyuser-social-linkedin {background:  #4875B4;}
+div.qfyuser-social-big i {
+margin: 0px 15px 0px 0px;
+float: none;
+}
+
+div.qfyuser-social-big a:hover {
+opacity: 0.85
+}
+
+/* notice */
+div.qfyuser-notice {
+	margin: 10px 0 0 0;
+	border-radius: 3px;
+	background: #eee;
+	border: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 12px !important;
+	line-height: 22px !important;
+	color: #555 !important;
+	text-shadow: 0 1px #fff !important;
+}
+
+/* statusbar */
+div.qfyuser-bar-success {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999999;
+	background: linear-gradient(#8ab842, #7ab221) !important;
+	height: 30px;
+	color: #fff !important;
+	line-height: 30px;
+	width: 100% !important;
+	font-size: 14px !important;
+	text-align: center;
+	box-shadow: 0 1px 4px #aaa;
+}
+
+div.qfyuser-bar-failed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999999;
+	background: #c24a4a !important;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d14242), to(#c24a4a)) !important;
+    background: -moz-linear-gradient(0% 0% 270deg,#d14242, #c24a4a) !important;	height: 30px;
+	color: #fff !important;
+	line-height: 30px;
+	width: 100% !important;
+	font-size: 14px !important;
+	text-align: center;
+	box-shadow: 0 1px 4px #aaa;
+}
+
+div.qfyuser-bar-success i,
+div.qfyuser-bar-failed i{
+	cursor: pointer;
+	opacity: 0.5 !important;
+	margin: 0 10px !important;
+	font-size: 16px !important;
+}
+
+/* custom alert box */
+div.qfyuser-alert {
+	position: relative;
+}
+
+div.qfyuser-alert-content, div.qfyuser-alert-input {
+	padding: 10px 50px 10px 15px;
+}
+
+div.qfyuser-alert-input div.qfyuser-input {
+	float: none !important;
+}
+
+div.qfyuser-alert-input div.qfyuser-input input[type=text]{
+	width: 160px !important;
+	font-size: 12px !important;
+	padding: 0 8px !important;
+	height: 28px !Important;
+	display: inline-block !important;
+}
+div.qfyuser-alert-input div.qfyuser-input input[type=button]{
+	height: 28px !important;
+	width: auto !important;
+	display: inline-block !important;
+}
+
+a.qfyuser-alert-close, a.qfyuser-alert-edit{
+	position: absolute;
+	right: 10px;
+	top: 7px;
+	font-size: 16px !important;
+	font-weight: normal !important;
+	opacity: 0.5;
+}
+a.qfyuser-alert-edit {right: 30px;top: 8px;}
+a.qfyuser-alert-close:hover, a.qfyuser-alert-edit:hover {opacity: 0.8}
+
+/* common styling */
+span.up-round, span.up-round * {
+	border-radius: 999px !important;
+}
+
+div.qfyuser-submit input.qfyuser-button.fullwidth-block {
+	display: block !important;
+	width: 100% !important;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 5px !important;
+	float:none !important;
+}
+
+/* elegant member directory */
+div.qfyuser-awsm {
+	margin-top: 100px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+	padding: 70px 0 15px 0;
+	width: 25%;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+div.qfyuser-awsm-pic {position: absolute;left: 50%;padding: 4px;}
+div.qfyuser-awsm-pic img {
+	display: block !important;
+	overflow: hidden !important;
+	margin: 0 !important;
+}
+
+div.qfyuser-awsm-name a {font-size: 16px !important;}
+div.qfyuser-awsm-name a:hover {text-decoration: none !important;}
+
+div.qfyuser-awsm-meta {
+	margin: 20px 0 0 0 !important;
+	font-style: italic !important;
+}
+
+div.qfyuser-awsm-bio {
+	line-height: 20px !important;
+	font-size: 13px !important;
+	padding: 0 15px !important;
+	margin: 20px 0 0 0 !important;
+}
+
+div.qfyuser-awsm-link {margin: 10px 0 0 0 !important}
+
+/* posts by user */
+div.qfyuser-post-wrap {
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+
+div.qfyuser-post {
+	vertical-align: top !important;
+	float: none !important;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block !important;
+	width: 25%;
+	margin-bottom: 20px !important;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+div.qfyuser-post a, div.qfyuser-post a:hover {
+	font-size: 13px  !important;
+	text-decoration: none !important;
+	line-height: 19px !important;
+}
+
+div.qfyuser-post-img a{position: relative;display: block;}
+div.qfyuser-post-img a span.shadowed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.7;
+	z-index: 99;
+	width: 100%;
+	height: 0px;
+}
+div.qfyuser-post-img a span.iconed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+div.qfyuser-post-img img {
+	max-width: 100% !important;
+	display: block !important;
+	overflow: hidden !important;
+	height: auto !important;
+	margin: 0 auto !important;
+}
+
+div.qfyuser-post-title {padding: 8px 10px !important;line-height: 19px !important;}
+
+div.qfyuser-post-stat {
+	padding: 8px 10px !important;
+	line-height: 19px !important;
+}
+
+div.qfyuser-post-stat a {font-size: 13px !important;}
+div.qfyuser-post-stat a i {font-size: 14px !important; margin: 0 5px 0 0 !important;}
+
+div.qfyuser-post.qfyuser-post-compact {
+	text-align: left;
+	width: 100%;
+	background: transparent !important;
+	border-radius: 0;
+	box-shadow: none !important;
+	border: none !important;
+	border-bottom: 1px solid #eee !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	padding: 10px 0 !important;
+}
+div.qfyuser-post.qfyuser-post-compact div.qfyuser-post-img {
+	float: left;
+	margin: 0 15px 0 0;
+}
+div.qfyuser-post.qfyuser-post-compact div.qfyuser-post-img a:hover {opacity: 0.8}
+div.qfyuser-post.qfyuser-post-compact div.qfyuser-post-title {
+	padding: 0 !important;
+}
+div.qfyuser-post.qfyuser-post-compact div.qfyuser-post-stat {
+	border: none !important;
+	padding: 5px 0 0 0 !important;
+}
+
+/* Frontend Editor */
+
+#qf-qfyuser_editor-wrap,
+#qf-qfyuser_editor-editor-container {
+	max-width: 100% !important;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#qf-qfyuser_editor-editor-container {
+	border: 1px solid #ddd;
+}
+
+#qf-qfyuser_editor-wrap a.qf-switch-editor {
+	padding: 6px 10px !important;
+	border: 1px solid #ddd;
+	border-bottom: 0;
+	margin: 0 10px 0 0;
+}
+
+#qf-qfyuser_editor-wrap * {box-shadow:none !important}
+
+#qf-qfyuser_editor-wrap a:hover {
+	text-decoration: none;
+}
+
+#qf-qfyuser_editor-wrap a.add_media {
+	height: 26px !important;
+}
+
+div.qfyuser-field textarea.qfyuser_editor {
+	padding: 10px !important;
+	font-size: 13px !important;
+	color: #666 !important;
+}
+
+/******************************
+EMD
+***********************************/
+
+div.emd-filters {
+	font-size: 12px !important;
+	letter-spacing: 0 !important;
+	color: #666 !important;
+	float: left;
+	width: 22% !important;
+	padding-right: 3%;
+	margin: 0 0 20px 0 !important;
+}
+
+div.emd-main {
+	float: left;
+	letter-spacing: 0 !important;
+	color: #666 !important;
+	margin: 0 0 20px 0 !important;
+}
+div.emd-main-0 {width: 100% !important;}
+div.emd-main-1 {width: 75% !important;}
+
+div.emd-main div.qfyuser-paginate.top {margin: 0 0 40px 0 !important}
+
+div.qfyuser-paginate {
+	text-align: center !important;
+}
+div.qfyuser-paginate a:hover {text-decoration: none !important}
+
+/* filters */
+div.emd-head {
+	font-weight: bold;
+	color: #333 !important;
+}
+
+div.emd-foot {
+	font-size: 11px !important;
+	border-top: 1px solid #ddd;
+	padding: 15px 0 0 0 !important;
+}
+
+div.emd-filter {padding: 0 0 12px 0}
+
+div.emd-filter-head {
+	background: #eee;
+	color: #666 !important;
+	font-size: 11px !important;
+	border-radius: 3px !important;
+	padding: 2px 8px;
+	margin: 12px 0 !important;
+}
+
+/* radio and checkbox */
+div.emd-filters label {
+	width: 100%;
+	box-sizing: border-box;
+	display: block;
+	cursor: pointer !important;
+	height: 16px !important;
+	line-height: 16px !important;
+	color: #666 !important;
+	position: relative;padding: 0 25px;display:inline-block; font-size: 11px;
+}
+div.emd-filters label:hover {text-decoration: underline !important}
+div.emd-filters label.qfyuser-radio input[type=radio], div.emd-filters label.qfyuser-checkbox input[type=checkbox]{display: none !important}
+div.emd-filters label.qfyuser-radio span, div.emd-filters label.qfyuser-checkbox span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 16px;
+	height: 16px;
+}
+
+/* users list */
+div.emd-list *, div.emd-list-empty * {margin: 0!important;padding: 0 !important;line-height: 1em !important;text-decoration: none !important}
+
+div.emd-user * {
+	transition: all .2s linear;
+}
+
+div.emd-user {
+	float: left;
+	box-sizing: border-box;
+	border: 1px solid #e5e5e5;
+	border-radius: 3px;
+	padding: 0 0 10px 0 !important;
+	margin: 0 0 20px 0% !important;
+	box-shadow: 0 1px 4px #ddd !important;
+}
+
+div.emd-user-img a:hover{opacity: 0.9}
+div.emd-user-img  img{
+	width: 100%;
+	height: auto;
+	border: none !important;
+	box-shadow: none !important;
+	border-radius: 3px 3px 0 0!important;
+}
+
+div.emd-user-info {padding: 10px 10px 0 10px !important}
+
+div.emd-user-left {float: left;}
+
+div.emd-user-left a {
+	font-size: 12px !important;
+	line-height: 18px !important;
+	color: #444 !important;
+	text-decoration: none !important;
+	font-weight: bold !important;
+}
+
+div.emd-user-left a:hover {text-decoration: underline !important}
+
+div.emd-user-right {float: right;padding: 3px 0 0 0 !important;}
+div.emd-user-columns div.emd-user-right {padding: 0 !important}
+
+div.emd-user-bio {
+	padding: 0 10px !important;
+	font-size: 11px !important;
+	line-height: 18px !important;
+	color: #999 !important;
+}
+
+div.emd-user-column {
+	padding: 2px 10px 0 10px !important;
+	font-size: 11px !important;
+}
+div.emd-user-column div.emd-user-left{line-height: 18px !important;}
+div.emd-user-column div.emd-user-right {line-height: 18px !important;}
+
+div.emd-user-icons {
+	margin: 10px 0 0 0 !important;
+	padding: 10px 0 0 0 !important;
+	border-top: 1px solid #e5e5e5;
+}
+div.emd-list div.emd-user div.emd-user-icons a.qfyuser-profile-icon {
+	width: 26px !important;
+	height: 26px !important;
+	line-height: 26px !important;
+	font-size: 14px !important;
+	margin: 0 2px !important;
+}
+
+/**********************************************************
+SOCIAL ADDON CSS
+******************************************************************/
+
+div.qfyuser-sc-bar {
+	border-bottom: 1px solid #eee;
+}
+
+a.qfyuser-count-link {
+	float: left;
+	display: block;
+	padding: 10px 15px;
+	font-size: 12px !important;
+	line-height: 18px !important;
+}
+a.qfyuser-count-link span {
+	font-weight: bold;
+	margin: 0 0 0 0 !important;
+}
+
+a.qfyuser-count-link i {
+	margin: 0 4px 0 0;
+}
+
+/* left - right */
+div.qfyuser-sc-left {
+	float: left;
+}
+
+div.qfyuser-sc-right {
+	float: right;
+	padding: 6px 15px 0 0;
+}
+
+div.qfyuser-sc-right a.qfyuser-button {
+	font-size: 11px !important;
+	margin: 0 !important;
+	padding: 0px 8px !important;
+	border-radius: 3px !important;
+	height: 25px !important;
+	line-height: 25px !important;
+	top: 0px !important;
+}
+
+a.qfyuser-button i {margin: 0 4px 0 0 !important;font-size: 14px !important;}
+a.qfyuser-button span {
+	background: #cc3000;
+	border-radius: 999px;
+	color: #fff;
+	padding: 0px 4px;
+	margin: 0 0 0 3px;
+}
+
+/* users */
+div.qfyuser-sc {
+	padding: 15px;
+	border-bottom: 1px solid #eee;
+	position: relative;
+}
+
+div.qfyuser-sc:last-child {border-bottom: 0 !important;}
+
+div.qfyuser-sc-noborder {border-bottom: 0 !important;}
+
+div.qfyuser-sc-btn {
+	position: absolute;
+	right: 0;
+	top: 15px;
+}
+
+div.qfyuser-sc-img {
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+div.qfyuser-sc-img a:hover {opacity: 0.8 !important}
+div.qfyuser-sc-img img {
+	display: block;
+	overflow: hidden;
+	box-shadow: none !important;
+	border-radius: 3px;
+	max-width: 40px;
+	max-height: 40px;
+}
+
+div.qfyuser-sc-i {
+	padding-right: 80px;
+	margin: 0 0 0 55px;
+}
+
+div.qfyuser-sc-i-name a {
+	font-size: 13px;
+	font-weight: bold;
+	color: #333 !important;
+}
+div.qfyuser-sc-i-name a:hover {text-decoration: underline !important}
+
+div.qfyuser-sc-i-icons {padding: 8px 0 0 0;}
+
+div.qfyuser-sc-i-bio {
+	font-size: 12px !important;
+	line-height: 20px !important;
+	color: #999 !important;
+}
+
+/* status */
+span.qfyuser-sc-i-info {
+	margin: 0 0 0 4px;
+}
+
+span.qfyuser-sc-i-info a {
+	display: inline-block !important;
+	font-size: 12px !important;
+	font-weight: normal;
+	color: #336699 !important;
+}
+
+span.qfyuser-sc-i-info a:hover {text-decoration: underline !important}
+
+span.qfyuser-sc-i-sp {
+	font-size: 12px;
+	display: block !important;
+	padding: 4px 0 0 0;
+}
+
+div.qfyuser-sc-i-time {
+	margin: 2px 0 0 0;
+	font-size: 11px;
+	color: #aaa;
+}
+
+/* misc */
+div.qfyuser-sc-flw {
+	display: block;
+	margin: 9px 0 0 0;
+}
+
+/* load more activity or refresh activity */
+a.qfyuser-button.qfyuser-sc-refresh {
+	margin: 0 !important;
+	padding: 0px 8px!important;
+	border-radius: 3px !important;
+	position: absolute !important;
+	right: 15px !important;
+	top: 9px !important;
+}
+a.qfyuser-button.qfyuser-sc-refresh:active{
+	position: absolute !important;
+	right: 15px !important;
+	top: 9px !important;
+}
+
+div.qfyuser-right img.qfyuser-sc-refresh-loader {
+	display: none;
+}
+
+div.qfyuser-sc-load {
+	text-align: center;
+	padding: 15px;
+}
+
+div.qfyuser-sc-load img.qfyuser-sc-loader{
+	display: none;
+}
+
+/* Table */
+table.qfyuser-table {
+	border-collapse:collapse;
+	margin: 20px 0 !important;
+	border: 0 !important;
+	border-left: 0 !important;
+}
+
+table.qfyuser-table * {border: none !important}
+
+table.qfyuser-table th,
+table.qfyuser-table td {
+	border: none !important;
+	font-weight: normal !important;
+	text-align: center !important;
+}
+
+table.qfyuser-table th.small,
+table.qfyuser-table td.small {width: 40px !important}
+
+table.qfyuser-table th.thumb,
+table.qfyuser-table td.thumb {width: 40px !important}
+
+table.qfyuser-table th.name,
+table.qfyuser-table td.name {max-width: 100px !important}
+
+table.qfyuser-table th {
+	background: #f5f5f5;
+	padding: 8px 10px;
+	border: 0 !important;
+	color: #999 !important;
+}
+
+table.qfyuser-table td {
+	padding: 12px 10px;
+	background: #fff;
+	border-bottom: 1px solid #eee !important;
+	color: #999 !important;
+}
+
+table.qfyuser-table td  a {
+	color: #444 !important;
+	text-decoration: none !important;
+}table.qfyuser-table td  a:hover {color: #666!important;}
+
+table.qfyuser-table td div.qfyuser-table-img img {
+	border-radius: 999px !important;
+	border: 1px solid #ccc !important;
+}
+
+table.qfyuser-table td  img.qfyuser-flag-normal {
+	margin: 0 !important;
+}
+
+table.qfyuser-table td.name span.nickname {
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1300px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+	div.qfyuser-overlay-inner {
+		width: 90%;
+		margin-left: 5%;
+		left: 0;
+	}
+
+}
+
+@media all and (max-width: 699px) {
+	.tipsy {
+		display: none !important;
+	}
+	
+	.hide-on-mobile {
+		display: none !important;
+	}
+	
+	table.qfyuser-table a.qfyuser-flat-btn span {
+		display: none !important;
+	}
+	table.qfyuser-table a.qfyuser-flat-btn  i{margin:0!important}
+	
+}
+.qfyuser-body  form.qfyuser_login .qfyuser-label .required{
+	display:none;
+}
+.qfyuser_containter{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.qfyuser_register [data-roles]{
+	display:none;
+}

@@ -1,0 +1,196 @@
+
+.qfy-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/social_icon_32x32.png");background-repeat: no-repeat;height: 32px;width: 32px;background-position: 0 0 ;display:inline-block;}
+.qfy-icon_32x32.corner{background-position-y:-32px ;}
+.qfy-icon_32x32.circular{background-position-y:-64px ;}
+.qfy-icon_32x32.black1{background-position-y:-96px ;}
+.qfy-icon_32x32.black2{background-position-y:-128px ;}
+.qfy-icon_32x32.white1{background-position-y:-160px ;}
+.qfy-icon_32x32.white2{background-position-y:-192px ;}
+.weibo-icon_32x32{background-position: -32px 0 ;}
+.qq-icon_32x32{background-position: -64px 0 ;}
+.baidu-icon_32x32{background-position: -96px 0 ;}
+.facebook-icon_32x32{background-position: -128px 0 ;}
+.video-icon_32x32{background-position: -160px 0 ;}
+.linkedin-icon_32x32{background-position: -192px 0 ;}
+.fr-icon_32x32{background-position: -224px 0 ;}
+.twitter-icon_32x32{background-position: -256px 0 ;}
+.twitter1-icon_32x32{background-position: -288px 0 ;}
+.google-icon_32x32{background-position: -320px 0 ;}
+.webchat-icon_32x32{background-position: -352px 0 ;}
+.pinterest-icon_32x32{background-position: -384px 0 ;}
+.v-icon_32x32{background-position: -416px 0 ;}
+.youtube-icon_32x32{background-position: -448px 0 ;}
+.skype-icon_32x32{background-position: -480px 0 ;}
+.tudou-icon_32x32{background-position: -512px 0 ;}
+.renren-icon_32x32{background-position: -544px 0 ;}
+.q1-icon_32x32{background-position: -576px 0 ;}
+.q2-icon_32x32{background-position: -608px 0 ;}
+.email-icon_32x32{background-position: -640px 0 ;}
+.phone1-icon_32x32{background-position: -672px 0 ;}
+.phone2-icon_32x32{background-position: -704px 0 ;}
+.china-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: 0 0 ;}
+.us-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -32px 0 ;}
+.germany-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -64px 0 ;}
+.russia-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -96px 0 ;}
+.canada-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -128px 0 ;}
+.english-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -160px 0 ;}
+.japan-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -192px 0 ;}
+.au-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -224px 0 ;}
+.india-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -256px 0 ;}
+.brazil-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -288px 0 ;}
+.korea-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -320px 0 ;}
+.arabia-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -352px 0 ;}
+.french-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -384px 0 ;}
+.italy-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -416px 0 ;}
+.turkey-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -448px 0 ;}
+.argentina-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -480px 0 ;}
+.mexico-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -512px 0 ;}
+.southAfrica-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -544px 0 ;}
+.indonesia-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -576px 0 ;}
+.european-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -608px 0 ;}
+.RUS-icon_32x32{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_32x32.png");background-position: -640px 0 ;}
+.qfy-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/social_icon_16x16.png");background-repeat: no-repeat;height: 16px;width: 16px;background-position: 0 0 ;display:inline-block;}
+.qfy-icon_16x16.corner{background-position-y:-16px ;}
+.qfy-icon_16x16.circular{background-position-y:-32px ;}
+.qfy-icon_16x16.black1{background-position-y:-48px ;}
+.qfy-icon_16x16.black2{background-position-y:-64px ;}
+.qfy-icon_16x16.white1{background-position-y:-80px ;}
+.qfy-icon_16x16.white2{background-position-y:-96px ;}
+.weibo-icon_16x16{background-position: -16px 0 ;}
+.qq-icon_16x16{background-position: -32px 0 ;}
+.baidu-icon_16x16{background-position: -48px 0 ;}
+.facebook-icon_16x16{background-position: -64px 0 ;}
+.video-icon_16x16{background-position: -80px 0 ;}
+.linkedin-icon_16x16{background-position: -96px 0 ;}
+.fr-icon_16x16{background-position: -112px 0 ;}
+.twitter-icon_16x16{background-position: -128px 0 ;}
+.twitter1-icon_16x16{background-position: -144px 0 ;}
+.google-icon_16x16{background-position: -160px 0 ;}
+.webchat-icon_16x16{background-position: -176px 0 ;}
+.pinterest-icon_16x16{background-position: -192px 0 ;}
+.v-icon_16x16{background-position: -208px 0 ;}
+.youtube-icon_16x16{background-position: -224px 0 ;}
+.skype-icon_16x16{background-position: -240px 0 ;}
+.tudou-icon_16x16{background-position: -256px 0 ;}
+.renren-icon_16x16{background-position: -272px 0 ;}
+.q1-icon_16x16{background-position: -288px 0 ;}
+.q2-icon_16x16{background-position: -304px 0 ;}
+.email-icon_16x16{background-position: -320px 0 ;}
+.phone1-icon_16x16{background-position: -336px 0 ;}
+.phone2-icon_16x16{background-position: -352px 0 ;}
+.china-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: 0 0 ;}
+.us-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -16px 0 ;}
+.germany-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -32px 0 ;}
+.russia-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -48px 0 ;}
+.canada-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -64px 0 ;}
+.english-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -80px 0 ;}
+.japan-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -96px 0 ;}
+.au-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -112px 0 ;}
+.india-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -128px 0 ;}
+.brazil-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -144px 0 ;}
+.korea-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -160px 0 ;}
+.arabia-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -176px 0 ;}
+.french-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -192px 0 ;}
+.italy-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -208px 0 ;}
+.turkey-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -224px 0 ;}
+.argentina-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -240px 0 ;}
+.mexico-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -256px 0 ;}
+.southAfrica-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -272px 0 ;}
+.indonesia-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -288px 0 ;}
+.european-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -304px 0 ;}
+.RUS-icon_16x16{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_16x16.png");background-position: -320px 0 ;}
+.qfy-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/social_icon_24x24.png");background-repeat: no-repeat;height: 24px;width: 24px;background-position: 0 0 ;display:inline-block;}
+.qfy-icon_24x24.corner{background-position-y:-24px ;}
+.qfy-icon_24x24.circular{background-position-y:-48px ;}
+.qfy-icon_24x24.black1{background-position-y:-72px ;}
+.qfy-icon_24x24.black2{background-position-y:-96px ;}
+.qfy-icon_24x24.white1{background-position-y:-120px ;}
+.qfy-icon_24x24.white2{background-position-y:-144px ;}
+.weibo-icon_24x24{background-position: -24px 0 ;}
+.qq-icon_24x24{background-position: -48px 0 ;}
+.baidu-icon_24x24{background-position: -72px 0 ;}
+.facebook-icon_24x24{background-position: -96px 0 ;}
+.video-icon_24x24{background-position: -120px 0 ;}
+.linkedin-icon_24x24{background-position: -144px 0 ;}
+.fr-icon_24x24{background-position: -168px 0 ;}
+.twitter-icon_24x24{background-position: -192px 0 ;}
+.twitter1-icon_24x24{background-position: -216px 0 ;}
+.google-icon_24x24{background-position: -240px 0 ;}
+.webchat-icon_24x24{background-position: -264px 0 ;}
+.pinterest-icon_24x24{background-position: -288px 0 ;}
+.v-icon_24x24{background-position: -312px 0 ;}
+.youtube-icon_24x24{background-position: -336px 0 ;}
+.skype-icon_24x24{background-position: -360px 0 ;}
+.tudou-icon_24x24{background-position: -384px 0 ;}
+.renren-icon_24x24{background-position: -408px 0 ;}
+.q1-icon_24x24{background-position: -432px 0 ;}
+.q2-icon_24x24{background-position: -456px 0 ;}
+.email-icon_24x24{background-position: -480px 0 ;}
+.phone1-icon_24x24{background-position: -504px 0 ;}
+.phone2-icon_24x24{background-position: -528px 0 ;}
+.china-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: 0 0 ;}
+.us-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -24px 0 ;}
+.germany-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -48px 0 ;}
+.russia-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -72px 0 ;}
+.canada-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -96px 0 ;}
+.english-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -120px 0 ;}
+.japan-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -144px 0 ;}
+.au-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -168px 0 ;}
+.india-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -192px 0 ;}
+.brazil-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -216px 0 ;}
+.korea-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -240px 0 ;}
+.arabia-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -264px 0 ;}
+.french-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -288px 0 ;}
+.italy-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -312px 0 ;}
+.turkey-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -336px 0 ;}
+.argentina-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -360px 0 ;}
+.mexico-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -384px 0 ;}
+.southAfrica-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -408px 0 ;}
+.indonesia-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -432px 0 ;}
+.european-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -456px 0 ;}
+.RUS-icon_24x24{background-image: url("//f.goodq.top/FeiEditor/images/icon/flag_icon_24x24.png");background-position: -480px 0 ;}
+
+.qfy-icon_64x64{background-image: url("//f.goodq.top/FeiEditor/images/icon/social_icon_64x64.png");background-repeat: no-repeat;height: 64px;width: 64px;background-position: 0 0 ;display:inline-block;}
+.qfy-icon_64x64.corner{background-position-y:-64px ;}
+.qfy-icon_64x64.circular{background-position-y:-128px ;}
+.qfy-icon_64x64.black1{background-position-y:-192px ;}
+.qfy-icon_64x64.black2{background-position-y:-256px ;}
+.qfy-icon_64x64.white1{background-position-y:-320px ;}
+.qfy-icon_64x64.white2{background-position-y:-384px ;}
+.weibo-icon_64x64{background-position: -64px 0 ;}
+.qq-icon_64x64{background-position: -128px 0 ;}
+.baidu-icon_64x64{background-position: -192px 0 ;}
+.facebook-icon_64x64{background-position: -256px 0 ;}
+.video-icon_64x64{background-position: -320px 0 ;}
+.linkedin-icon_64x64{background-position: -384px 0 ;}
+.fr-icon_64x64{background-position: -448px 0 ;}
+.twitter-icon_64x64{background-position: -512px 0 ;}
+.twitter1-icon_64x64{background-position: -576px 0 ;}
+.google-icon_64x64{background-position: -640px 0 ;}
+.webchat-icon_64x64{background-position: -704px 0 ;}
+.pinterest-icon_64x64{background-position: -768px 0 ;}
+.v-icon_64x64{background-position: -832px 0 ;}
+.youtube-icon_64x64{background-position: -896px 0 ;}
+.skype-icon_64x64{background-position: -960px 0 ;}
+.tudou-icon_64x64{background-position: -1024px 0 ;}
+.renren-icon_64x64{background-position: -1088px 0 ;}
+.q1-icon_64x64{background-position: -1152px 0 ;}
+.q2-icon_64x64{background-position: -1216px 0 ;}
+.email-icon_64x64{background-position: -1280px 0 ;}
+.phone1-icon_64x64{background-position: -1344px 0 ;}
+.phone2-icon_64x64{background-position: -1408px 0 ;}
+
+.douyin-icon_16x16{background-position: -368px 0 ;}
+.douyin-icon_24x24{background-position: -552px 0 ;}
+.douyin-icon_32x32{background-position: -737px 0 ;}
+.douyin-icon_64x64{background-position: -1472px 0 ;}
+
+.xiaohongshu-icon_16x16{background-position: -384px 0 ;}
+.xiaohongshu-icon_24x24{background-position: -576px 0 ;}
+.xiaohongshu-icon_32x32{background-position: -768px 0 ;}
+.xiaohongshu-icon_64x64{background-position: -1536px 0 ;}
+
+.bilibili-icon_16x16{background-position: -400px 0 ;}
+.bilibili-icon_24x24{background-position: -600px 0 ;}
+.bilibili-icon_32x32{background-position: -801px 0 ;}
+.bilibili-icon_64x64{background-position: -1599px 0 ;}

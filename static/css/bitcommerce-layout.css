@@ -1,0 +1,1486 @@
+.clear {
+    clear: both
+}
+
+.nobr {
+    white-space: nowrap
+}
+
+.bitcommerce .col2-set, .bitcommerce-page .col2-set {
+    *zoom: 1;
+    width: 100%
+}
+
+.bitcommerce .col2-set:after, .bitcommerce .col2-set:before, .bitcommerce-page .col2-set:after, .bitcommerce-page .col2-set:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce .col2-set:after, .bitcommerce-page .col2-set:after {
+    clear: both
+}
+
+.bitcommerce .col2-set .col-1, .bitcommerce-page .col2-set .col-1 {
+    float: left;
+    width: 48%
+}
+
+.bitcommerce .col2-set .col-2, .bitcommerce-page .col2-set .col-2 {
+    float: right;
+    width: 48%
+}
+
+.bitcommerce .product_img img {
+    height: auto;
+    max-width: 100%
+}
+
+.bitcommerce #content div.product div.images, .bitcommerce div.product div.images, .bitcommerce-page #content div.product div.images, .bitcommerce-page div.product div.images {
+    float: left;
+    width: 48%
+}
+
+.bitcommerce #content div.product div.thumbnails, .bitcommerce div.product div.thumbnails, .bitcommerce-page #content div.product div.thumbnails, .bitcommerce-page div.product div.thumbnails {
+    *zoom: 1
+}
+
+.bitcommerce #content div.product div.thumbnails:after, .bitcommerce #content div.product div.thumbnails:before, .bitcommerce div.product div.thumbnails:after, .bitcommerce div.product div.thumbnails:before, .bitcommerce-page #content div.product div.thumbnails:after, .bitcommerce-page #content div.product div.thumbnails:before, .bitcommerce-page div.product div.thumbnails:after, .bitcommerce-page div.product div.thumbnails:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce #content div.product div.thumbnails:after, .bitcommerce div.product div.thumbnails:after, .bitcommerce-page #content div.product div.thumbnails:after, .bitcommerce-page div.product div.thumbnails:after {
+    clear: both
+}
+
+.bitcommerce #content div.product div.thumbnails a, .bitcommerce div.product div.thumbnails a, .bitcommerce-page #content div.product div.thumbnails a, .bitcommerce-page div.product div.thumbnails a {
+    float: left;
+    width: 30.75%;
+    margin-right: 3.8%
+}
+
+.bitcommerce #content div.product div.thumbnails a.last, .bitcommerce div.product div.thumbnails a.last, .bitcommerce-page #content div.product div.thumbnails a.last, .bitcommerce-page div.product div.thumbnails a.last {
+    margin-right: 0
+}
+
+.bitcommerce #content div.product div.thumbnails a.first, .bitcommerce div.product div.thumbnails a.first, .bitcommerce-page #content div.product div.thumbnails a.first, .bitcommerce-page div.product div.thumbnails a.first {
+    clear: both
+}
+
+.bitcommerce #content div.product div.summary, .bitcommerce div.product div.summary, .bitcommerce-page #content div.product div.summary, .bitcommerce-page div.product div.summary {
+    float: right;
+    width: 48%
+}
+
+.bitcommerce #content div.product .bitcommerce-tabs, .bitcommerce div.product .bitcommerce-tabs, .bitcommerce-page #content div.product .bitcommerce-tabs, .bitcommerce-page div.product .bitcommerce-tabs {
+    clear: both
+}
+
+.bitcommerce #content div.product .bitcommerce-tabs ul.tabs, .bitcommerce div.product .bitcommerce-tabs ul.tabs, .bitcommerce-page #content div.product .bitcommerce-tabs ul.tabs, .bitcommerce-page div.product .bitcommerce-tabs ul.tabs {
+    *zoom: 1
+}
+
+.bitcommerce #content div.product .bitcommerce-tabs ul.tabs:after, .bitcommerce #content div.product .bitcommerce-tabs ul.tabs:before, .bitcommerce div.product .bitcommerce-tabs ul.tabs:after, .bitcommerce div.product .bitcommerce-tabs ul.tabs:before, .bitcommerce-page #content div.product .bitcommerce-tabs ul.tabs:after, .bitcommerce-page #content div.product .bitcommerce-tabs ul.tabs:before, .bitcommerce-page div.product .bitcommerce-tabs ul.tabs:after, .bitcommerce-page div.product .bitcommerce-tabs ul.tabs:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce #content div.product .bitcommerce-tabs ul.tabs:after, .bitcommerce div.product .bitcommerce-tabs ul.tabs:after, .bitcommerce-page #content div.product .bitcommerce-tabs ul.tabs:after, .bitcommerce-page div.product .bitcommerce-tabs ul.tabs:after {
+    clear: both
+}
+
+.bitcommerce #content div.product .bitcommerce-tabs ul.tabs li, .bitcommerce div.product .bitcommerce-tabs ul.tabs li, .bitcommerce-page #content div.product .bitcommerce-tabs ul.tabs li, .bitcommerce-page div.product .bitcommerce-tabs ul.tabs li {
+    display: inline-block
+}
+
+.bitcommerce #content div.product #reviews .comment, .bitcommerce div.product #reviews .comment, .bitcommerce-page #content div.product #reviews .comment, .bitcommerce-page div.product #reviews .comment {
+    *zoom: 1
+}
+
+.bitcommerce #content div.product #reviews .comment:after, .bitcommerce #content div.product #reviews .comment:before, .bitcommerce div.product #reviews .comment:after, .bitcommerce div.product #reviews .comment:before, .bitcommerce-page #content div.product #reviews .comment:after, .bitcommerce-page #content div.product #reviews .comment:before, .bitcommerce-page div.product #reviews .comment:after, .bitcommerce-page div.product #reviews .comment:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce #content div.product #reviews .comment:after, .bitcommerce div.product #reviews .comment:after, .bitcommerce-page #content div.product #reviews .comment:after, .bitcommerce-page div.product #reviews .comment:after {
+    clear: both
+}
+
+.bitcommerce #content .quantity input::-webkit-inner-spin-button, .bitcommerce #content .quantity input::-webkit-outer-spin-button, .bitcommerce #quantity input::-webkit-inner-spin-button, .bitcommerce #quantity input::-webkit-outer-spin-button, .bitcommerce-page #content .quantity input::-webkit-inner-spin-button, .bitcommerce-page #content .quantity input::-webkit-outer-spin-button, .bitcommerce-page #quantity input::-webkit-inner-spin-button, .bitcommerce-page #quantity input::-webkit-outer-spin-button {
+    display: none
+}
+
+.bitcommerce .related, .bitcommerce .upsells.products, .bitcommerce-page .related, .bitcommerce-page .upsells.products {
+    *zoom: 1
+}
+
+.bitcommerce .related:after, .bitcommerce .related:before, .bitcommerce .upsells.products:after, .bitcommerce .upsells.products:before, .bitcommerce-page .related:after, .bitcommerce-page .related:before, .bitcommerce-page .upsells.products:after, .bitcommerce-page .upsells.products:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce .related:after, .bitcommerce .upsells.products:after, .bitcommerce-page .related:after, .bitcommerce-page .upsells.products:after {
+    clear: both
+}
+
+.bitcommerce .related ul, .bitcommerce .related ul.products, .bitcommerce .upsells.products ul, .bitcommerce .upsells.products ul.products, .bitcommerce-page .related ul, .bitcommerce-page .related ul.products, .bitcommerce-page .upsells.products ul, .bitcommerce-page .upsells.products ul.products {
+    float: none
+}
+
+.bitcommerce .related ul li.product img, .bitcommerce .related ul.products li.product img, .bitcommerce .upsells.products ul li.product img, .bitcommerce .upsells.products ul.products li.product img, .bitcommerce-page .related ul li.product img, .bitcommerce-page .related ul.products li.product img, .bitcommerce-page .upsells.products ul li.product img, .bitcommerce-page .upsells.products ul.products li.product img {
+    width: 100%;
+    height: auto
+}
+
+.bitcommerce ul.products, .bitcommerce-page ul.products {
+    clear: both;
+    *zoom: 1
+}
+
+.bitcommerce ul.products:after, .bitcommerce ul.products:before, .bitcommerce-page ul.products:after, .bitcommerce-page ul.products:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce ul.products:after, .bitcommerce-page ul.products:after {
+    clear: both
+}
+
+.bitcommerce ul.products li.product, .bitcommerce-page ul.products li.product {
+    float: left;
+    margin: 0 3.8% 2.992em 0;
+    padding: 0;
+    position: relative;
+    width: 22.05%;
+    margin-left: 0
+}
+
+.bitcommerce ul.products li.first, .bitcommerce-page ul.products li.first {
+    clear: both
+}
+
+.bitcommerce ul.products li.last, .bitcommerce-page ul.products li.last {
+    margin-right: 0
+}
+
+.bitcommerce-page .columns-1 ul.products li.product, .bitcommerce.columns-1 ul.products li.product {
+    width: 100%;
+    margin-right: 0
+}
+
+.bitcommerce-page .columns-2 ul.products li.product, .bitcommerce.columns-2 ul.products li.product {
+    width: 50%
+}
+
+.bitcommerce-page .columns-3 ul.products li.product, .bitcommerce.columns-3 ul.products li.product {
+    width: 33.3333333%
+}
+
+.bitcommerce-page .columns-4 ul.products li.product, .bitcommerce.columns-4 ul.products li.product {
+    width: 25%
+}
+
+.bitcommerce-page .columns-5 ul.products li.product, .bitcommerce.columns-5 ul.products li.product {
+    width: 20%
+}
+
+.bitcommerce-page .columns-6 ul.products li.product, .bitcommerce.columns-6 ul.products li.product {
+    width: 16.6666666%
+}
+
+.bitcommerce-page .columns-7 ul.products li.product, .bitcommerce.columns-7 ul.products li.product {
+    width: 14.2857%
+}
+
+.bitcommerce-page .columns-8 ul.products li.product, .bitcommerce.columns-8 ul.products li.product {
+    width: 12.5%
+}
+
+.bitcommerce-page .columns-9 ul.products li.product, .bitcommerce.columns-9 ul.products li.product {
+    width: 11.11111%
+}
+
+.bitcommerce-page .columns-10 ul.products li.product, .bitcommerce.columns-10 ul.products li.product {
+    width: 10%
+}
+
+.bitcommerce .bitcommerce-result-count, .bitcommerce-page .bitcommerce-result-count {
+    float: left
+}
+
+.bitcommerce .bitcommerce-ordering, .bitcommerce-page .bitcommerce-ordering {
+    float: right
+}
+
+.bitcommerce .bitcommerce-pagination ul.page-numbers, .bitcommerce-page .bitcommerce-pagination ul.page-numbers {
+    *zoom: 1
+}
+
+.bitcommerce .bitcommerce-pagination ul.page-numbers:after, .bitcommerce .bitcommerce-pagination ul.page-numbers:before, .bitcommerce-page .bitcommerce-pagination ul.page-numbers:after, .bitcommerce-page .bitcommerce-pagination ul.page-numbers:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce .bitcommerce-pagination ul.page-numbers:after, .bitcommerce-page .bitcommerce-pagination ul.page-numbers:after {
+    clear: both
+}
+
+.bitcommerce .bitcommerce-pagination ul.page-numbers li, .bitcommerce-page .bitcommerce-pagination ul.page-numbers li {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.bitcommerce #content table.cart img, .bitcommerce table.cart img, .bitcommerce-page #content table.cart img, .bitcommerce-page table.cart img {
+    height: auto
+}
+
+.bitcommerce #content table.cart td.actions, .bitcommerce table.cart td.actions, .bitcommerce-page #content table.cart td.actions, .bitcommerce-page table.cart td.actions {
+    text-align: right
+}
+
+.bitcommerce #content table.cart td.actions .input-text, .bitcommerce table.cart td.actions .input-text, .bitcommerce-page #content table.cart td.actions .input-text, .bitcommerce-page table.cart td.actions .input-text {
+    width: 80px
+}
+
+.bitcommerce #content table.cart td.actions .coupon, .bitcommerce table.cart td.actions .coupon, .bitcommerce-page #content table.cart td.actions .coupon, .bitcommerce-page table.cart td.actions .coupon {
+    float: left
+}
+
+.bitcommerce #content table.cart td.actions .coupon label, .bitcommerce table.cart td.actions .coupon label, .bitcommerce-page #content table.cart td.actions .coupon label, .bitcommerce-page table.cart td.actions .coupon label {
+    display: none
+}
+
+.bitcommerce .cart-collaterals, .bitcommerce-page .cart-collaterals {
+    *zoom: 1;
+    width: 100%
+}
+
+.bitcommerce .cart-collaterals:after, .bitcommerce .cart-collaterals:before, .bitcommerce-page .cart-collaterals:after, .bitcommerce-page .cart-collaterals:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce .cart-collaterals:after, .bitcommerce-page .cart-collaterals:after {
+    clear: both
+}
+
+.bitcommerce .cart-collaterals .related, .bitcommerce-page .cart-collaterals .related {
+    width: 30.75%;
+    float: left
+}
+
+.bitcommerce .cart-collaterals .cross-sells, .bitcommerce-page .cart-collaterals .cross-sells {
+    width: 48%;
+    float: left
+}
+
+.bitcommerce .cart-collaterals .cross-sells ul.products, .bitcommerce-page .cart-collaterals .cross-sells ul.products {
+    float: none
+}
+
+.bitcommerce .cart-collaterals .cross-sells ul.products li, .bitcommerce-page .cart-collaterals .cross-sells ul.products li {
+    width: 48%
+}
+
+.bitcommerce .cart-collaterals .shipping_calculator, .bitcommerce-page .cart-collaterals .shipping_calculator {
+    width: 48%;
+    *zoom: 1;
+    clear: right;
+    float: right
+}
+
+.bitcommerce .cart-collaterals .shipping_calculator:after, .bitcommerce .cart-collaterals .shipping_calculator:before, .bitcommerce-page .cart-collaterals .shipping_calculator:after, .bitcommerce-page .cart-collaterals .shipping_calculator:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce .cart-collaterals .shipping_calculator:after, .bitcommerce-page .cart-collaterals .shipping_calculator:after {
+    clear: both
+}
+
+.bitcommerce .cart-collaterals .shipping_calculator .col2-set .col-1, .bitcommerce .cart-collaterals .shipping_calculator .col2-set .col-2, .bitcommerce-page .cart-collaterals .shipping_calculator .col2-set .col-1, .bitcommerce-page .cart-collaterals .shipping_calculator .col2-set .col-2 {
+    width: 47%
+}
+
+.bitcommerce ul.cart_list li, .bitcommerce ul.product_list_widget li, .bitcommerce-page ul.cart_list li, .bitcommerce-page ul.product_list_widget li {
+    *zoom: 1
+}
+
+.bitcommerce ul.cart_list li:after, .bitcommerce ul.cart_list li:before, .bitcommerce ul.product_list_widget li:after, .bitcommerce ul.product_list_widget li:before, .bitcommerce-page ul.cart_list li:after, .bitcommerce-page ul.cart_list li:before, .bitcommerce-page ul.product_list_widget li:after, .bitcommerce-page ul.product_list_widget li:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce ul.cart_list li:after, .bitcommerce ul.product_list_widget li:after, .bitcommerce-page ul.cart_list li:after, .bitcommerce-page ul.product_list_widget li:after {
+    clear: both
+}
+
+.bitcommerce ul.cart_list li img, .bitcommerce ul.product_list_widget li img, .bitcommerce-page ul.cart_list li img, .bitcommerce-page ul.product_list_widget li img {
+    float: right;
+    height: auto
+}
+
+.bitcommerce form .form-row, .bitcommerce-page form .form-row {
+    *zoom: 1
+}
+
+.bitcommerce form .form-row:after, .bitcommerce form .form-row:before, .bitcommerce-page form .form-row:after, .bitcommerce-page form .form-row:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce form .form-row:after, .bitcommerce-page form .form-row:after {
+    clear: both
+}
+
+.bitcommerce form .form-row label, .bitcommerce-page form .form-row label {
+    display: block
+}
+
+.bitcommerce form .form-row label.checkbox, .bitcommerce-page form .form-row label.checkbox {
+    display: inline
+}
+
+.bitcommerce form .form-row select, .bitcommerce-page form .form-row select {
+    width: 100%
+}
+
+.bitcommerce form .form-row .input-text, .bitcommerce-page form .form-row .input-text {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%
+}
+
+.bitcommerce form .form-row-first, .bitcommerce form .form-row-last, .bitcommerce-page form .form-row-first, .bitcommerce-page form .form-row-last {
+    float: left;
+    width: 47%;
+    overflow: visible
+}
+
+.bitcommerce form .form-row-last, .bitcommerce-page form .form-row-last {
+    float: right
+}
+
+.bitcommerce form .form-row-wide, .bitcommerce-page form .form-row-wide {
+    clear: both
+}
+
+.bitcommerce #payment .form-row select, .bitcommerce-page #payment .form-row select {
+    width: auto
+}
+
+.bitcommerce #payment .terms, .bitcommerce-page #payment .terms {
+    text-align: right;
+    padding: 0
+}
+
+.twentyfourteen .tfwc {
+    padding: 12px 10px 0;
+    max-width: 474px;
+    margin: 0 auto
+}
+
+.twentyfourteen .tfwc .product .entry-summary {
+    padding: 0 !important;
+    margin: 0 0 1.618em !important
+}
+
+.twentyfourteen .tfwc div.product.hentry.has-post-thumbnail {
+    margin-top: 0
+}
+
+.twentyfourteen .tfwc .product .images img {
+    margin-bottom: 1em
+}
+
+@media screen and (min-width: 673px) {
+    .twentyfourteen .tfwc {
+        padding-right: 30px;
+        padding-left: 30px
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    .twentyfourteen .tfwc {
+        padding-right: 15px;
+        padding-left: 15px
+    }
+}
+
+@media screen and (min-width: 1110px) {
+    .twentyfourteen .tfwc {
+        padding-right: 30px;
+        padding-left: 30px
+    }
+}
+
+@media screen and (min-width: 1218px) {
+    .twentyfourteen .tfwc {
+        margin-right: 54px
+    }
+
+    .full-width .twentyfourteen .tfwc {
+        margin-right: auto
+    }
+}
+
+
+.clear {
+    clear: both
+}
+
+.nobr {
+    white-space: nowrap
+}
+
+@font-face {
+    font-family: star;
+    src: url(//f.goodq.top/qfy-content/plugins/bitcommerce/assets/fonts/star.eot);
+    src: url(//f.goodq.top/qfy-content/plugins/bitcommerce/assets/fonts/star.eot?#iefix) format('embedded-opentype'), url(//f.goodq.top/qfy-content/plugins/bitcommerce/assets/fonts/star.woff) format('woff'), url(//f.goodq.top/qfy-content/plugins/bitcommerce/assets/fonts/star.ttf) format('truetype'), url(//f.goodq.top/qfy-content/plugins/bitcommerce/assets/fonts/star.svg#star) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: BitCommerce;
+    src: url(//f.goodq.top/qfy-content/plugins/bitcommerce/assets/fonts/BitCommerce.eot);
+    src: url(//f.goodq.top/qfy-content/plugins/bitcommerce/assets/fonts/BitCommerce.eot?#iefix) format('embedded-opentype'), url(//f.goodq.top/qfy-content/plugins/bitcommerce/assets/fonts/BitCommerce.woff) format('woff'), url(//f.goodq.top/qfy-content/plugins/bitcommerce/assets/fonts/BitCommerce.ttf) format('truetype'), url(//f.goodq.top/qfy-content/plugins/bitcommerce/assets/fonts/BitCommerce.svg#BitCommerce) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+.wc-forward a:after, .wc-forward:after {
+    font-family: BitCommerce;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 7px;
+    font-size: .75em
+}
+
+.wc-backward a:before, .wc-backward:before {
+    font-family: BitCommerce;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 7px;
+    content: "\e02f";
+    font-size: .75em
+}
+
+.bitcommerce small.note, .bitcommerce-page small.note {
+    display: block;
+    color: #777;
+    font-size: 11px;
+    line-height: 21px;
+    margin-top: 10px
+}
+
+.bitcommerce .bitcommerce-breadcrumb, .bitcommerce-page .bitcommerce-breadcrumb {
+    margin: 0 0 1em;
+    padding: 0;
+    font-size: .92em;
+    color: #777
+}
+
+.bitcommerce .bitcommerce-breadcrumb:after, .bitcommerce .bitcommerce-breadcrumb:before, .bitcommerce-page .bitcommerce-breadcrumb:after, .bitcommerce-page .bitcommerce-breadcrumb:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce .bitcommerce-breadcrumb:after, .bitcommerce-page .bitcommerce-breadcrumb:after {
+    clear: both
+}
+
+.bitcommerce .bitcommerce-breadcrumb a, .bitcommerce-page .bitcommerce-breadcrumb a {
+    color: #777
+}
+
+.bitcommerce #content div.product, .bitcommerce div.product, .bitcommerce-page #content div.product, .bitcommerce-page div.product {
+    margin-bottom: 0;
+    position: relative
+}
+
+.bitcommerce #content div.product .product_title, .bitcommerce div.product .product_title, .bitcommerce-page #content div.product .product_title, .bitcommerce-page div.product .product_title {
+    clear: none;
+    margin-top: 0;
+    padding: 0
+}
+
+.bitcommerce #content div.product p.price ins, .bitcommerce #content div.product span.price ins, .bitcommerce div.product p.price ins, .bitcommerce div.product span.price ins, .bitcommerce-page #content div.product p.price ins, .bitcommerce-page #content div.product span.price ins, .bitcommerce-page div.product p.price ins, .bitcommerce-page div.product span.price ins {
+    background: inherit
+}
+
+.bitcommerce #content div.product div.images, .bitcommerce div.product div.images, .bitcommerce-page #content div.product div.images, .bitcommerce-page div.product div.images {
+    margin-bottom: 2em
+}
+
+.bitcommerce #content div.product div.images img, .bitcommerce div.product div.images img, .bitcommerce-page #content div.product div.images img, .bitcommerce-page div.product div.images img {
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-transition: all ease-in-out .2s;
+    -moz-transition: all ease-in-out .2s;
+    -o-transition: all ease-in-out .2s;
+    transition: all ease-in-out .2s
+}
+
+.bitcommerce #content div.product div.images div.thumbnails, .bitcommerce div.product div.images div.thumbnails, .bitcommerce-page #content div.product div.images div.thumbnails, .bitcommerce-page div.product div.images div.thumbnails {
+    padding-top: 1em
+}
+
+.bitcommerce #content div.product div.summary, .bitcommerce div.product div.summary, .bitcommerce-page #content div.product div.summary, .bitcommerce-page div.product div.summary {
+    margin-bottom: 2em
+}
+
+.bitcommerce #content div.product div.social, .bitcommerce div.product div.social, .bitcommerce-page #content div.product div.social, .bitcommerce-page div.product div.social {
+    text-align: right;
+    margin: 0 0 1em
+}
+
+.bitcommerce #content div.product div.social span, .bitcommerce div.product div.social span, .bitcommerce-page #content div.product div.social span, .bitcommerce-page div.product div.social span {
+    margin: 0 0 0 2px
+}
+
+.bitcommerce #content div.product div.social span span, .bitcommerce div.product div.social span span, .bitcommerce-page #content div.product div.social span span, .bitcommerce-page div.product div.social span span {
+    margin: 0
+}
+
+.bitcommerce #content div.product div.social span .stButton .chicklets, .bitcommerce div.product div.social span .stButton .chicklets, .bitcommerce-page #content div.product div.social span .stButton .chicklets, .bitcommerce-page div.product div.social span .stButton .chicklets {
+    padding-left: 16px;
+    width: 0
+}
+
+.bitcommerce #content div.product div.social iframe, .bitcommerce div.product div.social iframe, .bitcommerce-page #content div.product div.social iframe, .bitcommerce-page div.product div.social iframe {
+    float: left;
+    margin-top: 3px
+}
+
+.bitcommerce #content div.product .bitcommerce-tabs .panel, .bitcommerce div.product .bitcommerce-tabs .panel, .bitcommerce-page #content div.product .bitcommerce-tabs .panel, .bitcommerce-page div.product .bitcommerce-tabs .panel {
+    padding: 0
+}
+
+.bitcommerce #content div.product p.cart, .bitcommerce div.product p.cart, .bitcommerce-page #content div.product p.cart, .bitcommerce-page div.product p.cart {
+    margin-bottom: 2em
+}
+
+.bitcommerce #content div.product p.cart:after, .bitcommerce #content div.product p.cart:before, .bitcommerce div.product p.cart:after, .bitcommerce div.product p.cart:before, .bitcommerce-page #content div.product p.cart:after, .bitcommerce-page #content div.product p.cart:before, .bitcommerce-page div.product p.cart:after, .bitcommerce-page div.product p.cart:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce #content div.product p.cart:after, .bitcommerce div.product p.cart:after, .bitcommerce-page #content div.product p.cart:after, .bitcommerce-page div.product p.cart:after {
+    clear: both
+}
+
+.bitcommerce #content div.product form.cart, .bitcommerce div.product form.cart, .bitcommerce-page #content div.product form.cart, .bitcommerce-page div.product form.cart {
+    margin-bottom: 2em
+}
+
+.bitcommerce #content div.product form.cart:after, .bitcommerce #content div.product form.cart:before, .bitcommerce div.product form.cart:after, .bitcommerce div.product form.cart:before, .bitcommerce-page #content div.product form.cart:after, .bitcommerce-page #content div.product form.cart:before, .bitcommerce-page div.product form.cart:after, .bitcommerce-page div.product form.cart:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce #content div.product form.cart:after, .bitcommerce div.product form.cart:after, .bitcommerce-page #content div.product form.cart:after, .bitcommerce-page div.product form.cart:after {
+    clear: both
+}
+
+.bitcommerce #content div.product form.cart div.quantity, .bitcommerce div.product form.cart div.quantity, .bitcommerce-page #content div.product form.cart div.quantity, .bitcommerce-page div.product form.cart div.quantity {
+    float: left;
+    margin: 0 4px 0 0
+}
+
+.bitcommerce #content div.product form.cart table, .bitcommerce div.product form.cart table, .bitcommerce-page #content div.product form.cart table, .bitcommerce-page div.product form.cart table {
+    border-width: 0 0 1px 0
+}
+
+.bitcommerce #content div.product form.cart table td, .bitcommerce div.product form.cart table td, .bitcommerce-page #content div.product form.cart table td, .bitcommerce-page div.product form.cart table td {
+    padding-left: 0
+}
+
+.bitcommerce #content div.product form.cart table div.quantity, .bitcommerce div.product form.cart table div.quantity, .bitcommerce-page #content div.product form.cart table div.quantity, .bitcommerce-page div.product form.cart table div.quantity {
+    float: none;
+    margin: 0
+}
+
+.bitcommerce #content div.product form.cart table small.stock, .bitcommerce div.product form.cart table small.stock, .bitcommerce-page #content div.product form.cart table small.stock, .bitcommerce-page div.product form.cart table small.stock {
+    display: block;
+    float: none
+}
+
+.bitcommerce #content div.product form.cart .variations, .bitcommerce div.product form.cart .variations, .bitcommerce-page #content div.product form.cart .variations, .bitcommerce-page div.product form.cart .variations {
+    margin-bottom: 1em
+}
+
+.bitcommerce #content div.product form.cart .variations label, .bitcommerce div.product form.cart .variations label, .bitcommerce-page #content div.product form.cart .variations label, .bitcommerce-page div.product form.cart .variations label {
+    font-weight: 700
+}
+
+.bitcommerce #content div.product form.cart .group_table td.label, .bitcommerce div.product form.cart .group_table td.label, .bitcommerce-page #content div.product form.cart .group_table td.label, .bitcommerce-page div.product form.cart .group_table td.label {
+    padding-right: 1em;
+    padding-left: 1em
+}
+
+.bitcommerce #content div.product form.cart .group_table td, .bitcommerce div.product form.cart .group_table td, .bitcommerce-page #content div.product form.cart .group_table td, .bitcommerce-page div.product form.cart .group_table td {
+    vertical-align: top;
+    padding-bottom: .5em
+}
+
+.bitcommerce span.onsale, .bitcommerce-page span.onsale {
+    min-height: 32px;
+    min-width: 32px;
+    padding: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    Z-INDEX: 1;
+    text-align: center;
+    line-height: 32px;
+    top: 6px;
+    left: 6px;
+    margin: 0;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background: #a1c094;
+    background: -webkit-gradient(linear, left top, left bottom, from(#a1c094), to(#85ad74));
+    background: -webkit-linear-gradient(#a1c094, #85ad74);
+    background: -moz-linear-gradient(center top, #a1c094 0, #85ad74 100%);
+    background: -moz-gradient(center top, #a1c094 0, #85ad74 100%);
+    color: #fff;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), inset 0 -1px 0 rgba(0, 0, 0, .2), 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), inset 0 -1px 0 rgba(0, 0, 0, .2), 0 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), inset 0 -1px 0 rgba(0, 0, 0, .2), 0 1px 2px rgba(0, 0, 0, .2)
+}
+
+.bitcommerce .products ul, .bitcommerce ul.products, .bitcommerce-page .products ul, .bitcommerce-page ul.products {
+    margin: 0 0 1em;
+    padding: 0;
+    list-style: none outside;
+    clear: both
+}
+
+.bitcommerce .products ul:after, .bitcommerce .products ul:before, .bitcommerce ul.products:after, .bitcommerce ul.products:before, .bitcommerce-page .products ul:after, .bitcommerce-page .products ul:before, .bitcommerce-page ul.products:after, .bitcommerce-page ul.products:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce .products ul:after, .bitcommerce ul.products:after, .bitcommerce-page .products ul:after, .bitcommerce-page ul.products:after {
+    clear: both
+}
+
+.bitcommerce .products ul li, .bitcommerce ul.products li, .bitcommerce-page .products ul li, .bitcommerce-page ul.products li {
+    list-style: none outside
+}
+
+.bitcommerce ul.products li.product .onsale, .bitcommerce-page ul.products li.product .onsale {
+    top: 0;
+    right: 0;
+    left: auto;
+    margin: -6px -6px 0 0
+}
+
+.bitcommerce ul.products li.product h3, .bitcommerce-page ul.products li.product h3 {
+    font-size: 1em
+}
+
+.bitcommerce ul.products li.product a, .bitcommerce-page ul.products li.product a {
+    text-decoration: none
+}
+
+.bitcommerce ul.products li.product a img, .bitcommerce-page ul.products li.product a img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    -webkit-transition: all ease-in-out .2s;
+    -moz-transition: all ease-in-out .2s;
+    -o-transition: all ease-in-out .2s;
+    transition: all ease-in-out .2s
+}
+
+.bitcommerce ul.products li.product strong, .bitcommerce-page ul.products li.product strong {
+    display: block
+}
+
+.bitcommerce .bitcommerce-ordering, .bitcommerce-page .bitcommerce-ordering {
+    margin: 0 0 1em
+}
+
+.bitcommerce .bitcommerce-ordering select, .bitcommerce-page .bitcommerce-ordering select {
+    vertical-align: top
+}
+
+.bitcommerce #content nav.bitcommerce-pagination, .bitcommerce nav.bitcommerce-pagination, .bitcommerce-page #content nav.bitcommerce-pagination, .bitcommerce-page nav.bitcommerce-pagination {
+    text-align: center
+}
+
+.bitcommerce #content nav.bitcommerce-pagination ul, .bitcommerce nav.bitcommerce-pagination ul, .bitcommerce-page #content nav.bitcommerce-pagination ul, .bitcommerce-page nav.bitcommerce-pagination ul {
+    display: inline-block; /*white-space:nowrap;*/
+    padding: 0;
+    clear: both;
+    border-right: 0;
+    margin: 1px
+}
+
+.bitcommerce #content input.button, .bitcommerce #respond input#submit, .bitcommerce a.button, .bitcommerce button.button, .bitcommerce input.button, .bitcommerce-page #respond input#submit, .bitcommerce-page a.button, .bitcommerce-page button.button, .bitcommerce-page input.button {
+    font-size: 100%;
+    margin: 0;
+    line-height: 1em;
+    cursor: pointer;
+    position: relative;
+    font-family: inherit;
+    text-decoration: none;
+    overflow: visible;
+    padding: 6px 10px;
+    font-weight: 700;
+    left: auto;
+    color: #5e5e5e;
+    border: 1px solid #c7c0c7;
+    background: #f7f6f7;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.bitcommerce #content input.button.loading, .bitcommerce #respond input#submit.loading, .bitcommerce a.button.loading, .bitcommerce button.button.loading, .bitcommerce input.button.loading, .bitcommerce-page #respond input#submit.loading, .bitcommerce-page a.button.loading, .bitcommerce-page button.button.loading, .bitcommerce-page input.button.loading {
+    color: #777;
+    border: 1px solid #f7f6f7
+}
+
+.bitcommerce #content input.button.loading:before, .bitcommerce #respond input#submit.loading:before, .bitcommerce a.button.loading:before, .bitcommerce button.button.loading:before, .bitcommerce input.button.loading:before, .bitcommerce-page #respond input#submit.loading:before, .bitcommerce-page a.button.loading:before, .bitcommerce-page button.button.loading:before, .bitcommerce-page input.button.loading:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: url(//f.goodq.top/qfy-content/plugins/bitcommerce/assets/images/ajax-loader.gif) center no-repeat rgba(255, 255, 255, .65)
+}
+
+.bitcommerce #content input.button.added:before, .bitcommerce #respond input#submit.added:before, .bitcommerce a.button.added:before, .bitcommerce button.button.added:before, .bitcommerce input.button.added:before, .bitcommerce-page #respond input#submit.added:before, .bitcommerce-page a.button.added:before, .bitcommerce-page button.button.added:before, .bitcommerce-page input.button.added:before {
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    top: .35em;
+    right: -26px;
+    text-indent: 0;
+    font-family: BitCommerce;
+    content: "\e017"
+}
+
+.bitcommerce #content input.button:active, .bitcommerce #respond input#submit:active, .bitcommerce a.button:active, .bitcommerce button.button:active, .bitcommerce input.button:active, .bitcommerce-page #respond input#submit:active, .bitcommerce-page a.button:active, .bitcommerce-page button.button:active, .bitcommerce-page input.button:active {
+    top: 1px
+}
+
+
+.bitcommerce #content input.button.disabled, .bitcommerce #content input.button:disabled, .bitcommerce #respond input#submit.disabled, .bitcommerce #respond input#submit:disabled, .bitcommerce a.button.disabled, .bitcommerce a.button:disabled, .bitcommerce button.button.disabled, .bitcommerce button.button:disabled, .bitcommerce input.button.disabled, .bitcommerce input.button:disabled, .bitcommerce-page #respond input#submit.disabled, .bitcommerce-page #respond input#submit:disabled, .bitcommerce-page a.button.disabled, .bitcommerce-page a.button:disabled, .bitcommerce-page button.button.disabled, .bitcommerce-page button.button:disabled, .bitcommerce-page input.button.disabled, .bitcommerce-page input.button:disabled {
+    color: #aaa;
+    border: 1px solid #dfdbdf;
+    background: #f7f6f7;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    cursor: not-allowed
+}
+
+.bitcommerce #content input.button.disabled:active, .bitcommerce #content input.button:disabled:active, .bitcommerce #respond input#submit.disabled:active, .bitcommerce #respond input#submit:disabled:active, .bitcommerce a.button.disabled:active, .bitcommerce a.button:disabled:active, .bitcommerce button.button.disabled:active, .bitcommerce button.button:disabled:active, .bitcommerce input.button.disabled:active, .bitcommerce input.button:disabled:active, .bitcommerce-page #respond input#submit.disabled:active, .bitcommerce-page #respond input#submit:disabled:active, .bitcommerce-page a.button.disabled:active, .bitcommerce-page a.button:disabled:active, .bitcommerce-page button.button.disabled:active, .bitcommerce-page button.button:disabled:active, .bitcommerce-page input.button.disabled:active, .bitcommerce-page input.button:disabled:active {
+    top: 0
+}
+
+.bitcommerce .cart .button, .bitcommerce .cart input.button, .bitcommerce-page .cart .button, .bitcommerce-page .cart input.button {
+    float: none
+}
+
+.bitcommerce a.added_to_cart, .bitcommerce-page a.added_to_cart {
+    padding-top: .5em;
+    white-space: nowrap;
+    display: inline-block
+}
+
+.bitcommerce #content .quantity, .bitcommerce .quantity, .bitcommerce-page #content .quantity, .bitcommerce-page .quantity {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+    min-width:80px;
+}
+
+.bitcommerce #content .quantity input.qty, .bitcommerce .quantity input.qty, .bitcommerce-page #content .quantity input.qty, .bitcommerce-page .quantity input.qty, .bitcommerce .quantity input.num {
+    float: left;
+    padding: 0;
+    text-align: center;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: inset 0 0 2px 0 #f7f6f7;
+    -webkit-box-shadow: inset 0 0 2px 0 #f7f6f7;
+    font-weight: 400;
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px
+}
+
+.bitcommerce #content .quantity input[type=number], .bitcommerce #content .quantity noindex:-o-prefocus, .bitcommerce .quantity input[type=number], .bitcommerce .quantity noindex:-o-prefocus, .bitcommerce-page #content .quantity input[type=number], .bitcommerce-page #content .quantity noindex:-o-prefocus, .bitcommerce-page .quantity input[type=number], .bitcommerce-page .quantity noindex:-o-prefocus {
+    padding-right: 1.2em
+}
+
+.bitcommerce #reviews h2 small, .bitcommerce-page #reviews h2 small {
+    float: right;
+    color: #777;
+    font-size: 15px;
+    line-height: 21px;
+    margin: 10px 0 0 0
+}
+
+.bitcommerce #reviews h2 small a, .bitcommerce-page #reviews h2 small a {
+    text-decoration: none;
+    color: #777
+}
+
+.bitcommerce #reviews h3, .bitcommerce-page #reviews h3 {
+    margin: 0
+}
+
+.bitcommerce #reviews #respond, .bitcommerce-page #reviews #respond {
+    margin: 0;
+    border: 0;
+    padding: 0
+}
+
+.bitcommerce #reviews #comment, .bitcommerce-page #reviews #comment {
+    height: 75px
+}
+
+.bitcommerce #reviews #comments .add_review:after, .bitcommerce #reviews #comments .add_review:before, .bitcommerce-page #reviews #comments .add_review:after, .bitcommerce-page #reviews #comments .add_review:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce #reviews #comments .add_review:after, .bitcommerce-page #reviews #comments .add_review:after {
+    clear: both
+}
+
+.bitcommerce #reviews #comments h2, .bitcommerce-page #reviews #comments h2 {
+    clear: none
+}
+
+
+.bitcommerce #reviews #comments ol.commentlist, .bitcommerce-page #reviews #comments ol.commentlist {
+    margin: 0;
+    width: 100%;
+    background: 0 0;
+    list-style: none
+}
+
+.bitcommerce #reviews #comments ol.commentlist ul.children, .bitcommerce-page #reviews #comments ol.commentlist ul.children {
+    list-style: none outside;
+    margin: 20px 0 0 50px
+}
+
+.bitcommerce #reviews #comments ol.commentlist ul.children .star-rating, .bitcommerce-page #reviews #comments ol.commentlist ul.children .star-rating {
+    display: none
+}
+
+.bitcommerce .star-rating, .bitcommerce-page .star-rating {
+    float: right;
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1em;
+    font-size: 1em;
+    width: /*5.4em*/ 83.2px;
+    font-family: star
+}
+
+.bitcommerce .star-rating:before, .bitcommerce-page .star-rating:before {
+    content: "\73\73\73\73\73";
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute
+}
+
+.bitcommerce .star-rating span, .bitcommerce-page .star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em
+}
+
+.bitcommerce .star-rating span:before, .bitcommerce-page .star-rating span:before {
+    content: "\53\53\53\53\53";
+    top: 0;
+    position: absolute;
+    left: 0
+}
+
+.bitcommerce .bitcommerce-product-rating, .bitcommerce-page .bitcommerce-product-rating {
+    line-height: 2em;
+    display: block
+}
+
+.bitcommerce .bitcommerce-product-rating .star-rating, .bitcommerce-page .bitcommerce-product-rating .star-rating {
+    margin: .5em 4px 0 0;
+    float: left
+}
+
+.bitcommerce ul.products li.product .star-rating {
+    display: inline-block;
+}
+
+.bitcommerce .products .star-rating, .bitcommerce-page .products .star-rating {
+    display: block;
+    float: none
+}
+
+.bitcommerce .hreview-aggregate .star-rating, .bitcommerce-page .hreview-aggregate .star-rating {
+    margin: 10px 0 0 0
+}
+
+.bitcommerce #review_form #respond, .bitcommerce-page #review_form #respond {
+    position: static;
+    margin: 0;
+    width: auto;
+    padding: 0 0 0;
+    background: transparent none;
+    border: 0
+}
+
+.bitcommerce #review_form #respond:after, .bitcommerce #review_form #respond:before, .bitcommerce-page #review_form #respond:after, .bitcommerce-page #review_form #respond:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce #review_form #respond:after, .bitcommerce-page #review_form #respond:after {
+    clear: both
+}
+
+.bitcommerce #review_form #respond p, .bitcommerce-page #review_form #respond p {
+    margin: 0 0 10px
+}
+
+.bitcommerce #review_form #respond .form-submit input, .bitcommerce-page #review_form #respond .form-submit input {
+    left: auto
+}
+
+
+.bitcommerce #review_form #respond textarea, .bitcommerce-page #review_form #respond textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%
+}
+
+.bitcommerce p.stars, .bitcommerce-page p.stars {
+    position: relative;
+    font-size: 1em
+}
+
+.bitcommerce p.stars a, .bitcommerce-page p.stars a {
+    display: inline-block;
+    font-weight: 700;
+    margin-right: 1em;
+    text-indent: -9999px;
+    position: relative
+}
+
+.bitcommerce p.stars a:last-child, .bitcommerce-page p.stars a:last-child {
+    border-right: 0
+}
+
+.bitcommerce p.stars a.star-1, .bitcommerce p.stars a.star-2, .bitcommerce p.stars a.star-3, .bitcommerce p.stars a.star-4, .bitcommerce p.stars a.star-5, .bitcommerce-page p.stars a.star-1, .bitcommerce-page p.stars a.star-2, .bitcommerce-page p.stars a.star-3, .bitcommerce-page p.stars a.star-4, .bitcommerce-page p.stars a.star-5 {
+    border-right: 1px solid #ccc
+}
+
+.bitcommerce p.stars a.star-1:after, .bitcommerce p.stars a.star-2:after, .bitcommerce p.stars a.star-3:after, .bitcommerce p.stars a.star-4:after, .bitcommerce p.stars a.star-5:after, .bitcommerce-page p.stars a.star-1:after, .bitcommerce-page p.stars a.star-2:after, .bitcommerce-page p.stars a.star-3:after, .bitcommerce-page p.stars a.star-4:after, .bitcommerce-page p.stars a.star-5:after {
+    font-family: BitCommerce;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.bitcommerce p.stars a.star-1, .bitcommerce-page p.stars a.star-1 {
+    width: 2em
+}
+
+.bitcommerce p.stars a.star-1:after, .bitcommerce-page p.stars a.star-1:after {
+    content: "\e021"
+}
+
+.bitcommerce p.stars a.star-1.active:after, .bitcommerce p.stars a.star-1:hover:after, .bitcommerce-page p.stars a.star-1.active:after, .bitcommerce-page p.stars a.star-1:hover:after {
+    content: "\e020"
+}
+
+.bitcommerce p.stars a.star-2, .bitcommerce-page p.stars a.star-2 {
+    width: 3em
+}
+
+.bitcommerce p.stars a.star-2:after, .bitcommerce-page p.stars a.star-2:after {
+    content: "\e021\e021"
+}
+
+.bitcommerce p.stars a.star-2.active:after, .bitcommerce p.stars a.star-2:hover:after, .bitcommerce-page p.stars a.star-2.active:after, .bitcommerce-page p.stars a.star-2:hover:after {
+    content: "\e020\e020"
+}
+
+.bitcommerce p.stars a.star-3, .bitcommerce-page p.stars a.star-3 {
+    width: 4em
+}
+
+.bitcommerce p.stars a.star-3:after, .bitcommerce-page p.stars a.star-3:after {
+    content: "\e021\e021\e021"
+}
+
+.bitcommerce p.stars a.star-3.active:after, .bitcommerce p.stars a.star-3:hover:after, .bitcommerce-page p.stars a.star-3.active:after, .bitcommerce-page p.stars a.star-3:hover:after {
+    content: "\e020\e020\e020"
+}
+
+.bitcommerce p.stars a.star-4, .bitcommerce-page p.stars a.star-4 {
+    width: 5em
+}
+
+.bitcommerce p.stars a.star-4:after, .bitcommerce-page p.stars a.star-4:after {
+    content: "\e021\e021\e021\e021"
+}
+
+.bitcommerce p.stars a.star-4.active:after, .bitcommerce p.stars a.star-4:hover:after, .bitcommerce-page p.stars a.star-4.active:after, .bitcommerce-page p.stars a.star-4:hover:after {
+    content: "\e020\e020\e020\e020"
+}
+
+.bitcommerce p.stars a.star-5, .bitcommerce-page p.stars a.star-5 {
+    width: 6em;
+    border: 0
+}
+
+.bitcommerce p.stars a.star-5:after, .bitcommerce-page p.stars a.star-5:after {
+    content: "\e021\e021\e021\e021\e021"
+}
+
+.bitcommerce p.stars a.star-5.active:after, .bitcommerce p.stars a.star-5:hover:after, .bitcommerce-page p.stars a.star-5.active:after, .bitcommerce-page p.stars a.star-5:hover:after {
+    content: "\e020\e020\e020\e020\e020"
+}
+
+.bitcommerce table.shop_attributes, .bitcommerce-page table.shop_attributes {
+    border: 0;
+    border-top: 1px dotted rgba(0, 0, 0, .1);
+    width: 100%
+}
+
+.bitcommerce table.shop_attributes th, .bitcommerce-page table.shop_attributes th {
+    width: 150px;
+    font-weight: 700;
+    padding: 8px 0;
+    border-top: 0;
+    margin: 0;
+    line-height: 1.5em
+}
+
+.bitcommerce table.shop_attributes td, .bitcommerce-page table.shop_attributes td {
+    font-style: italic;
+    padding: 0;
+    border-top: 0;
+    margin: 0;
+    line-height: 1.5em
+}
+
+.bitcommerce table.shop_attributes td p, .bitcommerce-page table.shop_attributes td p {
+    margin: 0;
+    padding: 8px 0
+}
+
+.bitcommerce table.shop_attributes .alt td, .bitcommerce table.shop_attributes .alt th, .bitcommerce-page table.shop_attributes .alt td, .bitcommerce-page table.shop_attributes .alt th {
+    background: rgba(0, 0, 0, .025)
+}
+
+.bitcommerce table.my_account_orders, .bitcommerce-page table.my_account_orders {
+    font-size: .85em
+}
+
+.bitcommerce table.my_account_orders td, .bitcommerce table.my_account_orders th, .bitcommerce-page table.my_account_orders td, .bitcommerce-page table.my_account_orders th {
+    padding: 4px 8px;
+    vertical-align: middle
+}
+
+.bitcommerce table.my_account_orders .button, .bitcommerce-page table.my_account_orders .button {
+    white-space: nowrap
+}
+
+.bitcommerce table.my_account_orders .order-actions, .bitcommerce-page table.my_account_orders .order-actions {
+    text-align: right
+}
+
+.bitcommerce table.my_account_orders .order-actions .button, .bitcommerce-page table.my_account_orders .order-actions .button {
+    margin: .125em 0 .125em .25em
+}
+
+.bitcommerce td.product-name p.backorder_notification, .bitcommerce-page td.product-name p.backorder_notification {
+    font-size: .83em
+}
+
+.bitcommerce td.product-quantity, .bitcommerce-page td.product-quantity {
+    min-width: 100px
+}
+
+.shop_table thead th.product-quantity {
+    text-align: center
+}
+
+.bitcommerce #content table.cart td.actions .coupon .input-text, .bitcommerce table.cart td.actions .coupon .input-text, .bitcommerce-page #content table.cart td.actions .coupon .input-text, .bitcommerce-page table.cart td.actions .coupon .input-text {
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, .1);
+    -webkit-box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, .1);
+    border: 1px solid #dfdbdf;
+    padding: 6px 6px 5px;
+    margin: 0 4px 0 0;
+    outline: 0;
+    line-height: 1em
+}
+
+.bitcommerce #content table.cart input, .bitcommerce table.cart input, .bitcommerce-page #content table.cart input, .bitcommerce-page table.cart input {
+    margin: 0;
+    vertical-align: middle;
+    line-height: 1em
+}
+
+.bitcommerce ul.cart_list, .bitcommerce ul.product_list_widget, .bitcommerce-page ul.cart_list, .bitcommerce-page ul.product_list_widget {
+    list-style: none outside;
+    padding: 0;
+    margin: 0
+}
+
+.bitcommerce ul.cart_list li, .bitcommerce ul.product_list_widget li, .bitcommerce-page ul.cart_list li, .bitcommerce-page ul.product_list_widget li {
+    padding: 4px 0;
+    margin: 0;
+    list-style: none
+}
+
+.bitcommerce ul.cart_list li:after, .bitcommerce ul.cart_list li:before, .bitcommerce ul.product_list_widget li:after, .bitcommerce ul.product_list_widget li:before, .bitcommerce-page ul.cart_list li:after, .bitcommerce-page ul.cart_list li:before, .bitcommerce-page ul.product_list_widget li:after, .bitcommerce-page ul.product_list_widget li:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce ul.cart_list li:after, .bitcommerce ul.product_list_widget li:after, .bitcommerce-page ul.cart_list li:after, .bitcommerce-page ul.product_list_widget li:after {
+    clear: both
+}
+
+.bitcommerce ul.cart_list li a, .bitcommerce ul.product_list_widget li a, .bitcommerce-page ul.cart_list li a, .bitcommerce-page ul.product_list_widget li a {
+    display: block;
+    font-weight: 700
+}
+
+.bitcommerce ul.cart_list li dl:after, .bitcommerce ul.cart_list li dl:before, .bitcommerce ul.product_list_widget li dl:after, .bitcommerce ul.product_list_widget li dl:before, .bitcommerce-page ul.cart_list li dl:after, .bitcommerce-page ul.cart_list li dl:before, .bitcommerce-page ul.product_list_widget li dl:after, .bitcommerce-page ul.product_list_widget li dl:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce ul.cart_list li dl:after, .bitcommerce ul.product_list_widget li dl:after, .bitcommerce-page ul.cart_list li dl:after, .bitcommerce-page ul.product_list_widget li dl:after {
+    clear: both
+}
+
+.bitcommerce ul.cart_list li dl dd, .bitcommerce ul.cart_list li dl dt, .bitcommerce ul.product_list_widget li dl dd, .bitcommerce ul.product_list_widget li dl dt, .bitcommerce-page ul.cart_list li dl dd, .bitcommerce-page ul.cart_list li dl dt, .bitcommerce-page ul.product_list_widget li dl dd, .bitcommerce-page ul.product_list_widget li dl dt {
+    display: inline-block;
+    float: left;
+}
+
+.bitcommerce ul.cart_list li dl dd p:last-child, .bitcommerce ul.product_list_widget li dl dd p:last-child, .bitcommerce-page ul.cart_list li dl dd p:last-child, .bitcommerce-page ul.product_list_widget li dl dd p:last-child {
+    margin-bottom: 0
+}
+
+.bitcommerce ul.cart_list li .star-rating, .bitcommerce ul.product_list_widget li .star-rating, .bitcommerce-page ul.cart_list li .star-rating, .bitcommerce-page ul.product_list_widget li .star-rating {
+    float: none
+}
+
+.bitcommerce .widget_shopping_cart .total, .bitcommerce-page .widget_shopping_cart .total, .bitcommerce-page.widget_shopping_cart .total, .bitcommerce.widget_shopping_cart .total {
+    border-top: 3px double #f7f6f7;
+    padding: 4px 0 0
+}
+
+.bitcommerce .widget_shopping_cart .total strong, .bitcommerce-page .widget_shopping_cart .total strong, .bitcommerce-page.widget_shopping_cart .total strong, .bitcommerce.widget_shopping_cart .total strong {
+    min-width: 40px;
+    display: inline-block
+}
+
+.bitcommerce .widget_shopping_cart .buttons:after, .bitcommerce .widget_shopping_cart .buttons:before, .bitcommerce-page .widget_shopping_cart .buttons:after, .bitcommerce-page .widget_shopping_cart .buttons:before, .bitcommerce-page.widget_shopping_cart .buttons:after, .bitcommerce-page.widget_shopping_cart .buttons:before, .bitcommerce.widget_shopping_cart .buttons:after, .bitcommerce.widget_shopping_cart .buttons:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce .widget_shopping_cart .buttons:after, .bitcommerce-page .widget_shopping_cart .buttons:after, .bitcommerce-page.widget_shopping_cart .buttons:after, .bitcommerce.widget_shopping_cart .buttons:after {
+    clear: both
+}
+
+.cart_item .remove {
+    border: 2px solid #ddd;
+    border-radius: 99px;
+    color: #ddd;
+    display: inline-block;
+    font-size: 25px;
+    height: 25px;
+    line-height: 12px;
+    margin-top: 25%;
+    text-align: center;
+    width: 25px
+}
+
+.cart_item .remove:hover {
+    border-color: #000;
+    color: #000
+}
+
+.cart_item .remove:hover a {
+    color: #000
+}
+
+.bitcommerce form .form-row, .bitcommerce-page form .form-row {
+    padding: 3px;
+    margin: 0 0 6px
+}
+
+.bitcommerce form .form-row [placeholder]:focus::-webkit-input-placeholder, .bitcommerce-page form .form-row [placeholder]:focus::-webkit-input-placeholder {
+    -webkit-transition: opacity .5s .5s ease;
+    -moz-transition: opacity .5s .5s ease;
+    transition: opacity .5s .5s ease;
+    opacity: 0
+}
+
+.bitcommerce form .form-row label, .bitcommerce-page form .form-row label {
+    line-height: 2em
+}
+
+.bitcommerce form .form-row label.hidden, .bitcommerce-page form .form-row label.hidden {
+    visibility: hidden
+}
+
+.bitcommerce form .form-row label.inline, .bitcommerce-page form .form-row label.inline {
+    display: inline
+}
+
+.bitcommerce form .form-row select, .bitcommerce-page form .form-row select {
+    cursor: pointer;
+    margin: 0
+}
+
+.bitcommerce form .form-row .required, .bitcommerce-page form .form-row .required {
+    color: red;
+    font-weight: 700;
+    border: 0
+}
+
+.bitcommerce form .form-row .input-checkbox, .bitcommerce-page form .form-row .input-checkbox {
+    display: inline;
+    margin: -2px 8px 0 0;
+    text-align: center;
+    vertical-align: middle
+}
+
+.bitcommerce form .form-row input.input-text, .bitcommerce form .form-row textarea, .bitcommerce-page form .form-row input.input-text, .bitcommerce-page form .form-row textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: 1em
+}
+
+.bitcommerce form .form-row textarea, .bitcommerce-page form .form-row textarea {
+    height: 4em;
+    line-height: 1.5em;
+    display: block;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.bitcommerce form .form-row.validate-required.bitcommerce-invalid .chosen-drop, .bitcommerce form .form-row.validate-required.bitcommerce-invalid .chosen-single, .bitcommerce form .form-row.validate-required.bitcommerce-invalid input.input-text, .bitcommerce form .form-row.validate-required.bitcommerce-invalid select, .bitcommerce-page form .form-row.validate-required.bitcommerce-invalid .chosen-drop, .bitcommerce-page form .form-row.validate-required.bitcommerce-invalid .chosen-single, .bitcommerce-page form .form-row.validate-required.bitcommerce-invalid input.input-text, .bitcommerce-page form .form-row.validate-required.bitcommerce-invalid select {
+    border-color: #fb7f88
+}
+
+.bitcommerce form .form-row ::-webkit-input-placeholder, .bitcommerce-page form .form-row ::-webkit-input-placeholder {
+    line-height: normal
+}
+
+.bitcommerce form .form-row :-moz-placeholder, .bitcommerce-page form .form-row :-moz-placeholder {
+    line-height: normal
+}
+
+.bitcommerce form .form-row :-ms-input-placeholder, .bitcommerce-page form .form-row :-ms-input-placeholder {
+    line-height: normal
+}
+
+.bitcommerce form.checkout_coupon, .bitcommerce .checkout_coupon_div, .bitcommerce form.login, .bitcommerce form.register, .bitcommerce-page form.checkout_coupon, .bitcommerce-page form.login, .bitcommerce-page form.register {
+    border: 1px solid #dfdbdf;
+    padding: 20px;
+    margin: 2em 0 2em 0;
+    text-align: left;
+    -webkit-border-radius: 5px;
+    border-radius: 5px
+}
+
+.bitcommerce ul#shipping_method, .bitcommerce-page ul#shipping_method {
+    list-style: none outside;
+    margin: 0;
+    padding: 0
+}
+
+.bitcommerce ul#shipping_method li, .bitcommerce-page ul#shipping_method li {
+    margin: 0;
+    padding: .25em 0 .25em 22px;
+    text-indent: -22px;
+    list-style: none outside
+}
+
+.bitcommerce ul#shipping_method .amount, .bitcommerce-page ul#shipping_method .amount {
+    font-weight: 700
+}
+
+.bitcommerce p.bitcommerce-shipping-contents, .bitcommerce-page p.bitcommerce-shipping-contents {
+    margin: 0
+}
+
+.bitcommerce .checkout .col-2 h3#ship-to-different-address, .bitcommerce-page .checkout .col-2 h3#ship-to-different-address {
+    float: left;
+    clear: none
+}
+
+.bitcommerce .checkout .col-2 .notes, .bitcommerce-page .checkout .col-2 .notes {
+    clear: left
+}
+
+.bitcommerce .checkout .col-2 .form-row-first, .bitcommerce-page .checkout .col-2 .form-row-first {
+    clear: left
+}
+
+.bitcommerce .checkout .create-account small, .bitcommerce-page .checkout .create-account small {
+    font-size: 11px;
+    color: #777;
+    line-height: 13px;
+    font-weight: 400
+}
+
+.bitcommerce .checkout div.shipping-address, .bitcommerce-page .checkout div.shipping-address {
+    padding: 0;
+    clear: left;
+    width: 100%
+}
+
+.bitcommerce .checkout .shipping_address, .bitcommerce-page .checkout .shipping_address {
+    clear: both
+}
+
+.bitcommerce .order_details, .bitcommerce-page .order_details {
+    margin: 0 0 1.5em;
+    list-style: none
+}
+
+.bitcommerce .order_details:after, .bitcommerce .order_details:before, .bitcommerce-page .order_details:after, .bitcommerce-page .order_details:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce .order_details:after, .bitcommerce-page .order_details:after {
+    clear: both
+}
+
+.bitcommerce .order_details li, .bitcommerce-page .order_details li {
+    float: left;
+    margin-right: 2em;
+    text-transform: uppercase;
+    line-height: 1em;
+    border-right: 1px dashed #dfdbdf;
+    padding-right: 2em
+}
+
+.bitcommerce .order_details li strong, .bitcommerce-page .order_details li strong {
+    display: block;
+    font-size: 1.4em;
+    text-transform: none;
+    line-height: 1.5em
+}
+
+.bitcommerce .order_details li:last-of-type, .bitcommerce-page .order_details li:last-of-type {
+    border: none
+}
+
+.bitcommerce .addresses .title:after, .bitcommerce .addresses .title:before, .bitcommerce-page .addresses .title:after, .bitcommerce-page .addresses .title:before {
+    content: " ";
+    display: table
+}
+
+.bitcommerce .addresses .title:after, .bitcommerce-page .addresses .title:after {
+    clear: both
+}
+
+.bitcommerce .addresses .title h3, .bitcommerce-page .addresses .title h3 {
+    float: left
+}
+
+.bitcommerce .addresses .title .edit, .bitcommerce-page .addresses .title .edit {
+    float: right
+}
+
+.bitcommerce ol.commentlist.notes li.note p.meta, .bitcommerce-page ol.commentlist.notes li.note p.meta {
+    font-weight: 700;
+    margin-bottom: 0
+}
+
+.bitcommerce ol.commentlist.notes li.note .description p:last-child, .bitcommerce-page ol.commentlist.notes li.note .description p:last-child {
+    margin-bottom: 0
+}
+
+.bitcommerce table.digital-downloads td a:before {
+    font-family: BitCommerce;
+    speak: none;
+    font-variant: normal;
+    position: relative;
+    top: 1px;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 7px;
+    content: "\e00a"
+}
+
+
+
+.single-product .twentythirteen #reply-title, .single-product .twentythirteen #respond #commentform, .single-product .twentythirteen .entry-summary {
+    padding: 0
+}
+
+.single-product .twentythirteen p.stars {
+    clear: both
+}
+
+.twentyfourteen ul.products li.product {
+    margin-top: 0 !important
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+    .bitcommerce #content input.button.loading:before, .bitcommerce #respond input#submit.loading:before, .bitcommerce a.button.loading:before, .bitcommerce button.button.loading:before, .bitcommerce input.button.loading:before, .bitcommerce-page #respond input#submit.loading:before, .bitcommerce-page a.button.loading:before, .bitcommerce-page button.button.loading:before, .bitcommerce-page input.button.loading:before {
+        background-image: url(//f.goodq.top/qfy-content/plugins/bitcommerce/assets/images/ajax-loader@2x.gif);
+        background-size: 16px 16px
+    }
+}
+
+.zoomContainer {
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.single-product table.variations td.label {
+    min-width: 50px;
+}
