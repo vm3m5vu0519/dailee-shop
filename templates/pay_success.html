@@ -8,7 +8,7 @@ A ny individuals and organizations and not for commercial use, professiona websi
 -->
 <head lang="en">
     <meta charset="UTF-8">
-    <title>皮爷の商城——支付页面</title>
+    <title>DaiLee工作室——支付頁面</title>
     <link rel="stylesheet" href="../static/css/index.css">
     <link href="../static/css/payment.css" rel="Stylesheet" />
     <link rel="icon" href="../static/images/index/py.ico">
@@ -16,15 +16,15 @@ A ny individuals and organizations and not for commercial use, professiona websi
 </head>
 
 <body>
-    <!-- 页面顶部-->
+    <!-- 頁面頂部-->
     <header id="header"></header>
 
     <div id="navlist">
         <ul>
             <li class="navlist_gray_left"></li>
-            <li class="navlist_gray">确认订单信息</li>
+            <li class="navlist_gray">確認訂單信息</li>
             <li class="navlist_gray_arrow"></li>
-            <li class="navlist_gray">支付订单<b></b></li>
+            <li class="navlist_gray">支付訂單<b></b></li>
             <li class="navlist_gray_arrow"></li>
             <li id="pay_res" class="navlist_blue">支付结果<b></b></li>
             <li class="navlist_blue_right"></li>
@@ -42,9 +42,9 @@ A ny individuals and organizations and not for commercial use, professiona websi
             <div class="pay_result">
                 <img src="../static/images/pay/pay_succ.png" alt="" />
                 <p >支付成功</p>
-                <span><a href="myOrder.html">查看订单&gt;&gt;</a></span>
+                <span><a href="myOrder.html">查看訂單&gt;&gt;</a></span>
                 <br />
-                皮爷商城不会以系统异常、订单升级为由，要求你点击任何链接进行退款操作！
+                DaiLee工作室不會以系統異常、訂單升級為由，要求你點擊任何連結進行退款操作！
             </div>
         </div>
     </div>
@@ -61,13 +61,13 @@ A ny individuals and organizations and not for commercial use, professiona websi
                             return null;
                         }
                     })(jQuery);
-            var token=localStorage.getItem("dashop_token")
+            var token=localStorage.getItem("token")
             $.ajax({
                     type: 'get',
                     beforeSend:function(request){
                         request.setRequestHeader("authorization",token)
                     },
-                    url: baseUrl+'/v1/orders/result/'+location.search,
+                    url: baseUrl+'/dailee/orders/result/'+location.search,
                     datatype: 'json',
                     async: false,
                     success: function (response) {
@@ -75,24 +75,24 @@ A ny individuals and organizations and not for commercial use, professiona websi
                         var results = JSON.parse(result)
                         var data = results.data
                         if(results.code == 403){
-							alert('用户认证已过期，请重新登录');
-							window.localStorage.removeItem('dashop_user');
-							window.localStorage.removeItem('dashop_token');
-							window.localStorage.removeItem('dashop_count');
+							alert('用戶認證已到期，請重新登入');
+							window.localStorage.removeItem('username');
+							window.localStorage.removeItem('token');
+							window.localStorage.removeItem('count');
 							location.href = 'login.html'
 						}
                         if (results.code == '200') {
-                            console.log("测试1")
-                            $("#orderID").html("订单编号:" + data.order_id)
-                            $("#money").html("支付金额:"+  +data.total_amount+ "元")
-                            $(".pay_result").html("<img src='../static/images/pay/pay_succ.png' alt='' /><p >支付成功</p><span><a href='myOrder.html'>查看订单&gt;&gt;</a></span> <br />皮爷商城不会以系统异常、订单升级为由，要求你点击任何链接进行退款操作！")
+                            console.log("測試1")
+                            $("#orderID").html("訂單編號:" + data.order_id)
+                            $("#money").html("支付金額:"+  +data.total_amount+ "元")
+                            $(".pay_result").html("<img src='../static/images/pay/pay_succ.png' alt='' /><p >支付成功</p><span><a href='myOrder.html'>查看訂單&gt;&gt;</a></span> <br />DaiLee工作室不會以系統異常、訂單升級為由，要求你點擊任何連結進行退款操作！")
                         } else if(results.code == '50105') {
-                            console.log("测试2")
-                            $(".pay_result").html("<img src='../static/images/pay/payfail.png' alt='' /><p >支付失败</p><span><a href='myOrder.html'>查看订单&gt;&gt;</a></span> <br />皮爷商城不会以系统异常、订单升级为由，要求你点击任何链接进行退款操作！")
+                            console.log("測試2")
+                            $(".pay_result").html("<img src='../static/images/pay/payfail.png' alt='' /><p >支付失敗</p><span><a href='myOrder.html'>查看订单&gt;&gt;</a></span> <br />DaiLee工作室不會以系統異常、訂單升級為由，要求你點擊任何連結進行退款操作！")
                         }
                     },
                     error:function(){
-                        console.log("错误")
+                        console.log("錯誤")
                     }
 
                 }

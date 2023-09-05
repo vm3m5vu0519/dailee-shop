@@ -8,7 +8,7 @@ A ny individuals and organizations and not for commercial use, professiona websi
 -->
 <head lang="en">
     <meta charset="UTF-8">
-    <title>皮爷の商城——支付页面</title>
+    <title>DaiLee工作室——支付页面</title>
     <link rel="stylesheet" href="../static/css/index.css">
     <link href="../static/css/payment.css" rel="Stylesheet" />
     <link rel="icon" href="../static/images/index/py.ico">
@@ -26,29 +26,29 @@ A ny individuals and organizations and not for commercial use, professiona websi
     <div id="navlist">
         <ul>
             <li class="navlist_gray_left"></li>
-            <li class="navlist_gray">确认订单信息</li>
+            <li class="navlist_gray">確認訂單信息</li>
             <li class="navlist_gray_arro"><canvas id="canvas_gray" width="20" height="38"></canvas>
             </li>
-            <li class="navlist_blue">支付订单<b></b></li>
+            <li class="navlist_blue">支付訂單<b></b></li>
             <li class="navlist_blue_arro"><canvas id="canvas_blue" width="20" height="38"></canvas>
             </li>
             <li class="navlist_gray">支付完成<b></b></li>
             <li class="navlist_gray_right"></li>
         </ul>
     </div>
-    <!--订单确认-->
+    <!--訂單確認-->
     <form action="pay_success.html" method="post" id="pay_form">
         <div id="container" class="clearfix">
-            <!-- 支付订单信息-->
+            <!-- 支付訂單信息-->
             <div class="pay_info">
-                <b>订单金额：<i id="total_amount"></i></b><input type="hidden" name="payment" value="0.01" />
+                <b>訂單金額：<i id="total_amount"></i></b><input type="hidden" name="payment" value="0.01" />
                 <span id="order_id"></span> <span id="saller"></span> <input type="hidden" name="orderId" />
             </div>
             <!--支付方式-->
             <div id="pay_type">
-                <!-- 支付方式头-->
+                <!-- 支付方式頭-->
                 <div class="pay_type_title">
-                    <b>支付宝支付</b>
+                    <b>綠界支付</b>
                 </div>
                 <div id="dnBank">
                     <ul>
@@ -73,13 +73,13 @@ A ny individuals and organizations and not for commercial use, professiona websi
                 </div>
 
             </div>
-            <!--结算条-->
+            <!--結算條-->
             <div id="count_bar">
                 <span class="pay_leftTime">
-<!-- {#                    剩余付款时间：<b>15：00</b>#} -->
-                    <!--获取待支付时间并更改订单状态-->
+<!-- {#                    剩餘付款時間：<b>15：00</b>#} -->
+                    <!--獲取待支付時間並更改訂單狀態-->
                 </span>
-                <span class="okPay" id="pay_now"><a href="#">确认支付</a></span>
+                <span class="okPay" id="pay_now"><a href="#">確認支付</a></span>
             </div>
 
         </div>
@@ -138,8 +138,8 @@ A ny individuals and organizations and not for commercial use, professiona websi
                     var settlement_type= $.getUrlParam('settlement_type')[2]
                     var buy_count = $.getUrlParam('buy_count')?$.getUrlParam('buy_count')[2]:0
                     var sku_id = $.getUrlParam('sku_id')?$.getUrlParam('sku_id')[2]:0
-                    var token=localStorage.getItem("dashop_token")
-                    var username =  window.localStorage.getItem('dashop_user')
+                    var token=localStorage.getItem("token")
+                    var username =  window.localStorage.getItem('username')
                     if(buy_count!=0&&sku_id!=0){
                         var data={
                             "address_id":address_id,
@@ -162,7 +162,7 @@ A ny individuals and organizations and not for commercial use, professiona websi
                     function push_ajax(settlement_type,data){
                         $.ajax({
                         type: 'post',
-                        url: baseUrl+'/v1/orders/'+username,
+                        url: baseUrl+'/dailee/orders/'+username,
                         contentType:'application/json',
                         beforeSend:function(request){
                         request.setRequestHeader("authorization",token)
@@ -175,26 +175,26 @@ A ny individuals and organizations and not for commercial use, professiona websi
                             var results = JSON.parse(result)
                             console.log(results.code)
                             if(results.code == 403){
-							alert('用户认证已过期，请重新登录');
-							window.localStorage.removeItem('dashop_user');
-							window.localStorage.removeItem('dashop_token');
-							window.localStorage.removeItem('dashop_count');
+							alert('用戶認證已過期，請重新登入');
+							window.localStorage.removeItem('username');
+							window.localStorage.removeItem('token');
+							window.localStorage.removeItem('count');
 							location.href = 'login.html'
 						}
 				            if(results.code == '200'){
                             console.log(results.data)
                             console.log(results.data.order_id)
-                            window.localStorage.setItem('dashop_count', results.data.carts_count);
+                            window.localStorage.setItem('count', results.data.carts_count);
                             $('.my_cart_count').html(results.data.carts_count)
                             $("#total_amount").html(results.data.total_amount+"元")
-                            $("#order_id").html("支付订单:"+results.data.order_id)
+                            $("#order_id").html("支付訂單:"+results.data.order_id)
                             $("#saller").html("收款方:"+results.data.saller+"&nbsp&nbsp")
-                            $(".pay_leftTime").html("总金额(含运费):"+results.data.total_amount)
+                            $(".pay_leftTime").html("總金額(含運費):"+results.data.total_amount)
                             var pay_url = results.data.pay_url
                             $(function(){
-                                console.log("测试１")
+                                console.log("測試1")
                                 $("#pay_now").click(function () {
-                                    console.log("测试2")
+                                    console.log("測試2")
                                     window.location = pay_url
                 })
         })
